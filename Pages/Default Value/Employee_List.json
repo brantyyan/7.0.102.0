@@ -112,10 +112,10 @@
     "19,18": "PassListviewData",
     "22,6": "导出csv",
     "22,12": "导入csv",
+    "22,18": "show column api",
     "25,6": "隐藏列",
     "25,12": "column option",
-    "25,18": "hide column api",
-    "28,18": "show column api"
+    "25,18": "hide column api"
   },
   "Formulas": {
     "6,15": "COUNTA(P9)"
@@ -275,7 +275,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "Forguncy.Page.getListView(\"表格1\").addNewRow({\"Name\":\"aaa\"});\r\n",
-            "ID": "a2eb912aac364f8fab4349e2d82c9eb3",
+            "ID": "7da53528dfef4d008e2635f91abd7345",
             "Comments": "aaa\r\nccc\r\nvvv\r\n\r\nccccc\r\nssds\r\n"
           }
         ],
@@ -563,6 +563,20 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
+    "22,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.Page.getListView(\"表格1\").showColumns([\"Department\"]);\r\n",
+            "ID": "f7c5dd2bc9894066877d916421d46045"
+          }
+        ],
+        "Text": "show column api",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
     "25,6": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
@@ -612,7 +626,7 @@
                 }
               }
             ],
-            "ID": "07ce059baf2a45c49db6b7f965438d8e"
+            "ID": "a34b707b66df4b3ca12ee952f3612c3c"
           }
         ],
         "Text": "column option",
@@ -626,24 +640,10 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "Forguncy.Page.getListView(\"表格1\").hideColumns([\"Department\"]);\r\n",
-            "ID": "e69d307425af4433b1b66ff2c8e37224"
+            "ID": "0aa179b3cd6641d5b5eec2173d2d74b7"
           }
         ],
         "Text": "hide column api",
-        "TemplateKey": "_RS_Normal_Style2"
-      }
-    },
-    "28,18": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
-            "JavaScript": "Forguncy.Page.getListView(\"表格1\").showColumns([\"Department\"]);\r\n",
-            "ID": "38e7649a30e74417b5f15c7995574900"
-          }
-        ],
-        "Text": "show column api",
         "TemplateKey": "_RS_Normal_Style2"
       }
     }
@@ -1035,6 +1035,12 @@
       "22,14": 30,
       "22,15": 30,
       "22,16": 30,
+      "22,18": 29,
+      "22,19": 30,
+      "22,20": 30,
+      "22,21": 30,
+      "22,22": 30,
+      "22,23": 30,
       "23,6": 30,
       "23,7": 30,
       "23,8": 30,
@@ -1046,6 +1052,12 @@
       "23,14": 30,
       "23,15": 30,
       "23,16": 30,
+      "23,18": 30,
+      "23,19": 30,
+      "23,20": 30,
+      "23,21": 30,
+      "23,22": 30,
+      "23,23": 30,
       "25,12": 29,
       "25,13": 30,
       "25,14": 30,
@@ -1056,19 +1068,7 @@
       "26,13": 30,
       "26,14": 30,
       "26,15": 30,
-      "26,16": 30,
-      "28,18": 29,
-      "28,19": 30,
-      "28,20": 30,
-      "28,21": 30,
-      "28,22": 30,
-      "28,23": 30,
-      "29,18": 30,
-      "29,19": 30,
-      "29,20": 30,
-      "29,21": 30,
-      "29,22": 30,
-      "29,23": 30
+      "26,16": 30
     },
     "SheetStyle": {
       "FontFamily": 8,
@@ -1102,8 +1102,8 @@
     "25,12,2,5",
     "25,18,2,6",
     "25,6,2,5",
-    "28,18,2,6",
     "18,32,2,7",
+    "22,18,2,6",
     "7,6,1,3",
     "7,9,1,3",
     "7,12,1,3",
@@ -1125,4 +1125,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//WQDsdpt4LlQuTkVQE4Tb9g3NTK09JfxUrGqI26f9HpTPf7VkzgEio5fU4SBPRy8ncs/l+1TdC6MgXZ/ZDwXottbnAQt3GF54u5jfaonWuUYS2y9j5mo7ww9idXRiwSs6fe4/YiiawtRht/FoiBDd0sB1etJV81hKo8aLOVTiDIX9w4l8qoV4svODEF4zQffC3+oMsVvkomhVHBwmGKdBF7jCKq8IoBQMKaR/wxdfc9r8mLAplrBFo03KCoFN6+nvBERNUpzuN0vpPs4OqozptALgFiTNDMZ+tUOXm3aNosie6Sgxqvspiy48Xez84sxKRBo8kcEydLVMe8LAKsfGesw8x+sYvtM2Q1J5YawZTgCRKyNnUX5x1BlIi0oaJMKPSjABgxq3Y6qzAH683jiNDgna604D4iDNVG0SLtwLa7J3sBGQHsuuM6Eg7K2GuRGwjwJPkPR0pLcRoOUKnVXfO8T4gc3JJkzACPjG/GcjG01Shj3Rmac9jXsHvXZJeB6b+FQCH8effz8tDc07An5q2G5tJUC5XEkWir23X+Tq1ANfIdKeWJPLAZ4/fFSpxMios1JmmJX9gMENskckwlPZTLutUoTZkNCadkdqcC6/qkI/m8iHlkzf+CJb/k/YihbrMrlVkaPm5/5DUVK5JCDNX2adsHZA2U+IRRHTyXUR05BvQAeYozrIKCLgLirhvBl2U6MRiI+pdAWY0X/Mc0nJqL0lE3h8EPl6D9Q8ADBrX+q5JPN1gleZ2s3XJMG1x02bUwa8xaxVwqZTk+EOdw0Vo3iXWZgMKZpWuQJgHqSQAlCsyV4b2PvpIcqLOTX1MvQepGxBfvp7k1Xxc2KVR0So2mU7+67aW0aBVOHCDXTS679HpsX6HlC1bgzpFg90U8MkPe7gqAvIH7eTXWkWl0uivg==|920
+}//EY8WmunLbEzgDgqjhDXkQf0Jp5Tk6mPbY1l9MqyN2hWWCZk61vMUU3slc11TxWOrXBDBfSwE577SkA0VBy8kgo4R1azH3kPXPagc25MHefaENeTikNvmiCvZg51s5N6PhHMiSojdV3o6lV4ZQeJdqCGGhMWpFw4mNr0NC9iHTCkDEUBTnE/yuThhESlxS0oe3uu9couNXkkM68KBAPoJc6xS9PQsKTY5QZ1TgBdNtv9cNi/RWrDWVAk2cNc47eTzgmxJCD+zbfxFXJKQ5cLOyUazJGn1AJUEJEDhCoStR41NENUKuVpGb/aZ2tnA+elovGBE6KjvZdxzIx+/BYXdAmMhr/D/gx8C3rQ00eRepOgbLDQLB5G2aKbyZAjSdwdN4g/wXRzUUtG06JXSFUINm2PcjUk8RVOYb3hKi/rSPXqzITEoR5gAz3SVc4J0G52WBKYWgojhIb7APtQ1zrY6zsZddoGyE0/eIaEkujrh0k389n1r+yFdyBNYMEVApsRH5Y6uQzFnHb1Ipz4GQYobDIG9cBSDefloBAWIb4bA3wOJdvLDnat+2yWyv0oJtMbeZPV5l9LLhUo9un7/UlFv0dEn9n/33WdBdSgWI5xjkPrcJpvJVQYUMMwLHy+wIzhIjmZRT9fLtqHlcl4Deo4k6apzTmF3VWHgY8tqf1x1BuquCEolap1eIFz9ZX+09xFZl2aELyA/HFZVqd/UaApsZWUx5Y8KAwINjDZ6AkslAQI7VF/IvdrTxzmYCSRptZiOIQ1Uo+JSBvn7dplv3K3I7BoXTgUPmnyqeuexvGPofiQStCnAVqchSYapTyJsy2EVNTBzPWCCVv0mn/4R3jWkDmSX69s5m5tDiFdP8Mj+Hf59NA4mKfrN3umDlgjuFBZIqdDTj1ralY1ztAck3BLdfw==|920

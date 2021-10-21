@@ -154,16 +154,7 @@
   },
   {
     "ModuleName": "PCPage/Employee_List",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T18:23:26.7553652+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Default Value\\Employee_List.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/Default Value",
