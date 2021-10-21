@@ -241,7 +241,14 @@
   },
   {
     "ModuleName": "Tables/导入文件夹1",
-    "ModuleType": 22
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-21T17:54:42.9116206+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/DifferentTypes",
