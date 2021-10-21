@@ -191,7 +191,16 @@
   },
   {
     "ModuleName": "PCPage/DifferentTypes_List page",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-21T13:59:06.8304197+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Default Value\\DifferentTypes_List page.json"
+    ]
   },
   {
     "ModuleName": "PCPage/DefaultFormula",
