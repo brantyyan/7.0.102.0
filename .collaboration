@@ -141,17 +141,7 @@
   },
   {
     "ModuleName": "Table/表1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:40.5981202+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\表1.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -160,97 +150,40 @@
   },
   {
     "ModuleName": "PCPage/表1_列表页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T12:14:26.3426246+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\表1_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Employee_List",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:55.3781895+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Pages/Default Value",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:55.3781895+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/DifferentTypes_List page",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:55.3781895+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/DefaultFormula",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:55.3781895+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Table/Employee",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:40.597154+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:40.5981202+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Table/DifferentTypes",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:40.5981202+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Table1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:42:40.5981202+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
