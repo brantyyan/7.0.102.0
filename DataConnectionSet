@@ -1,2 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DataConnectionSet />
+<DataConnectionSet>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Data Source=xa-dd3-fSs19O19;User ID=C##OracleTest;Password=xA123456;Unicode=True</ConnectionString>
+    <DataBaseType>Oracle</DataBaseType>
+    <ID>bc9606a4-7299-4bd7-ae97-165a3259bb9f</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Data Source=xa-dd3-fs12o11;Initial Catalog=xa-dd3-branty;Persist Security Info=True;User ID=sa;Password=xA20200326</ConnectionString>
+    <DataBaseType>SqlServer</DataBaseType>
+    <ID>e5ff0f0b-89be-44ff-a2e2-70a21ff5c8b4</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Server=xa-dd3-fs16ms8;User Id=root;Password=xA20200326;Database=brantytest1</ConnectionString>
+    <DataBaseType>MySql</DataBaseType>
+    <ID>a8dea0c4-8694-4280-a0db-589720e3c6db</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Host=xa-dd3-fgcp13d8;Username=postgres;Password=xA20200326;Database=brantytest</ConnectionString>
+    <DataBaseType>PostgreSQL</DataBaseType>
+    <ID>28041355-aabe-4619-a77e-ab9d8584b4ef</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>server=xa-dd3-fgcp13d8;user=sysdba;password=xA20200326;schema=brantyTest</ConnectionString>
+    <DataBaseType>DaMeng</DataBaseType>
+    <ID>264bbe72-c7fd-4c2c-8e0e-d1b037d7bf85</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Driver={Microsoft Access Driver (*.mdb, *.accdb)};dbq=D:\FORGUNCYBUILD\7.0.4.0\DEMO\ACCESSDATA\Forguncy_4552.accdb;defaultdir=D:\FORGUNCYBUILD\7.0.4.0\DEMO\ACCESSDATA;driverid=25;fil=MS Access;filedsn=C:\Users\brantyyan\Documents\access.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes</ConnectionString>
+    <DataBaseType>Odbc</DataBaseType>
+    <ID>a98aedd7-7f31-404c-a1f8-94fe89409066</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Driver={MySQL ODBC 8.0 Unicode Driver};server={xa-dd3-fs16ms8};uid=root;pwd=xA20200326;database=brantytest;port=3306</ConnectionString>
+    <DataBaseType>Odbc</DataBaseType>
+    <ID>55fac581-d860-4ae5-8b19-d05bb8389cd4</ID>
+  </Item>
+</DataConnectionSet>
