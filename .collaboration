@@ -170,7 +170,16 @@
   },
   {
     "ModuleName": "PCPage/表1_列表页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-21T14:46:00.5885452+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\表1_列表页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/Employee_List",
