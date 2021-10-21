@@ -138,7 +138,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-21T18:04:41.1905854+08:00",
+    "LockDateTime": "2021-10-21T18:06:58.7591198+08:00",
     "ModuleType": 25,
     "ToRemoveFiles": [
       "DataConnectionSet"
@@ -285,6 +285,16 @@
       "Email": "example@example.com"
     },
     "LockDateTime": "2021-10-21T18:04:41.1905854+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/ColumnType",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-21T18:06:58.7591198+08:00",
     "ModuleType": 7
   }
 ]
