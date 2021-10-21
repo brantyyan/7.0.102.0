@@ -138,7 +138,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-21T18:03:31.5585058+08:00",
+    "LockDateTime": "2021-10-21T18:04:41.1905854+08:00",
     "ModuleType": 25,
     "ToRemoveFiles": [
       "DataConnectionSet"
@@ -275,6 +275,16 @@
       "Email": "example@example.com"
     },
     "LockDateTime": "2021-10-21T18:03:31.5585058+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/ars_看板",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-21T18:04:41.1905854+08:00",
     "ModuleType": 7
   }
 ]
