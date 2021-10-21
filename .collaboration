@@ -138,7 +138,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-21T17:57:22.4984035+08:00",
+    "LockDateTime": "2021-10-21T18:03:31.5585058+08:00",
     "ModuleType": 25,
     "ToRemoveFiles": [
       "DataConnectionSet"
@@ -266,5 +266,15 @@
     "LockDateTime": "2021-10-21T17:57:22.4984035+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/Forguncy_4552",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-21T18:03:31.5585058+08:00",
+    "ModuleType": 7
   }
 ]
