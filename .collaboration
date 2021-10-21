@@ -204,7 +204,16 @@
   },
   {
     "ModuleName": "PCPage/DefaultFormula",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-21T14:24:30.6318911+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Default Value\\DefaultFormula.json"
+    ]
   },
   {
     "ModuleName": "Table/Employee",
