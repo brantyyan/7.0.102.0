@@ -1,0 +1,71 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "所有行",
+      "TableValue": {
+        "TableName": "Employee",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "Employee",
+              "ColumnName": "Name"
+            },
+            "ColumnName": "Name"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "Employee",
+              "ColumnName": "Birthday"
+            },
+            "ColumnName": "Birthday"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "Employee",
+              "ColumnName": "Department"
+            },
+            "ColumnName": "Department"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "Employee",
+              "ColumnName": "Comment"
+            },
+            "ColumnName": "Comment"
+          }
+        ]
+      },
+      "ID": "1bc893ebc1c94d33ab8e80bb9cdd98f7"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "返回值1",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=所有行"
+          }
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "返回值1"
+    }
+  ],
+  "Name": "服务端命令1"
+}

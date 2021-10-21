@@ -137,31 +137,11 @@
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:48:21.2501302+08:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": [
-      "Upload\\746cd898-b666-4418-af44-b48a024fecc2_5882b2b7d0a20cf46d6fc41f70094b36adaf9976.gif",
-      "Upload\\c59aa3bc-2d62-4fc9-b990-55dbb31534dd_check.png"
-    ]
+    "ModuleType": 26
   },
   {
     "ModuleName": "Table/表1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T17:54:33.4549612+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\表1.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -170,29 +150,11 @@
   },
   {
     "ModuleName": "PCPage/表1_列表页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T14:46:00.5885452+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\表1_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Employee_List",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:43:25.0019546+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Default Value\\Employee_List.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/Default Value",
@@ -200,94 +162,29 @@
   },
   {
     "ModuleName": "PCPage/DifferentTypes_List page",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:59:06.8304197+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Default Value\\DifferentTypes_List page.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/DefaultFormula",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T14:24:30.6318911+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Default Value\\DefaultFormula.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Table/Employee",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T17:54:33.4549612+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\导入文件夹1\\Employee.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
-    "ModuleName": "Tables/导入文件夹1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T17:54:42.9116206+08:00",
-    "ModuleType": 22,
-    "ToRemoveFiles": []
-  },
-  {
     "ModuleName": "Table/DifferentTypes",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T17:54:33.4549612+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\导入文件夹1\\DifferentTypes.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Table1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T17:54:33.4549612+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\导入文件夹1\\Table1.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "ServerCommand/服务端命令1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-21T13:46:05.1365968+08:00",
     "ModuleType": 15
   }
 ]
