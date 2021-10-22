@@ -9,23 +9,258 @@
     "1,1": "a",
     "1,2": 3,
     "1,3": 4,
+    "1,37": "ID ",
+    "1,39": "1",
+    "1,46": "返回值",
     "2,1": "b",
     "2,2": 2,
     "2,3": 5,
     "3,1": "c",
     "3,2": -1,
-    "3,3": 6
+    "3,3": 6,
+    "4,37": "存储过程",
+    "7,37": "SQLCommand"
   },
-  "StyleDatas": {
-    "Types": {
-      "Strs": [
-        "Body"
-      ]
+  "AttachInfos": {
+    "1,39": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "1"
+      }
     },
-    "SheetStyle": {
-      "FontFamily": 0
+    "1,49": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "4,37": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "存储过程",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AN2"
+                },
+                "ParamName": "参数1"
+              }
+            ],
+            "ReturnPropertiesTo": [
+              {
+                "ResultPropertyName": "返回值1",
+                "ResultTo": {
+                  "SerializeProperty": "=页面1!AX2"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "存储过程",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,37": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "SQLCommand",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数1"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "SQLCommand",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "11,37": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "表1",
+        "RowIndex": 11,
+        "ColumnIndex": 37,
+        "ColumnCount": 19,
+        "RowCount": 9,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "12,37": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "ID"
+      }
+    },
+    "12,39": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "文本"
+      }
+    },
+    "12,43": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数"
+      }
     }
   },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body",
+        "DarkGray"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,39": 0,
+      "1,49": 0,
+      "5,47": 1,
+      "11,37": 2,
+      "11,38": 3,
+      "11,39": 3,
+      "11,40": 3,
+      "11,41": 3,
+      "11,42": 3,
+      "11,43": 3,
+      "11,44": 3,
+      "11,45": 3,
+      "11,46": 3,
+      "11,47": 3,
+      "11,48": 3,
+      "11,49": 3,
+      "11,50": 3,
+      "11,51": 3,
+      "11,52": 3,
+      "11,53": 3,
+      "11,54": 3,
+      "11,55": 4,
+      "12,37": 5,
+      "12,55": 6,
+      "13,37": 5,
+      "13,55": 6,
+      "14,37": 5,
+      "14,55": 6,
+      "15,37": 5,
+      "15,55": 6,
+      "16,37": 5,
+      "16,55": 6,
+      "17,37": 5,
+      "17,55": 6,
+      "18,37": 5,
+      "18,55": 6,
+      "19,37": 7,
+      "19,38": 8,
+      "19,39": 8,
+      "19,40": 8,
+      "19,41": 8,
+      "19,42": 8,
+      "19,43": 8,
+      "19,44": 8,
+      "19,45": 8,
+      "19,46": 8,
+      "19,47": 8,
+      "19,48": 8,
+      "19,49": 8,
+      "19,50": 8,
+      "19,51": 8,
+      "19,52": 8,
+      "19,53": 8,
+      "19,54": 8,
+      "19,55": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,39,2,6",
+    "1,49,2,7",
+    "4,37,2,8",
+    "13,37,7,19",
+    "12,37,1,2",
+    "12,39,1,4",
+    "12,43,1,4",
+    "11,37,1,2",
+    "11,39,1,4",
+    "11,43,1,4",
+    "7,37,2,8"
+  ],
   "Charts": [
     {
       "ChartType": 7,
@@ -377,4 +612,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//hNZkyICEp7+wUGa+8DjClOC7IqgZgASHC9TQpH0Q8z3k9wULdXGA9Uf2mtjPIo3NXQ8dJjsuufz7QmIDY9Bl2DsPc8e6GshEBXORHvnkQRGwwThnADvghaj1DcesGGqcCXL8yKeeL950UvAcfqkKeYfIFFhc0xcB8W2I7y4CDOUdhAbjafM7VW1jADKLM4NswAUl/StLJoNTygVKWKkHWhXbeaKQ88pRJlA9VEr9/7lLuuy2xOrup2Q9IKO/EhXYJs5vFUz1seH02NPm3PtXwr7kirIBnSldw4grfUxvurGtnpf+ETb2gP5KDmTg10To93zn9yGnOhBM/9N2cwnb6f+JuJb25hiuDLMTd3WsOik+HYjFv93k26m4BJyhs78fHNmYV5A5OAsHtymX8B/IT7sCgnkTfbZjbXRotslPwXctZAgKAC5MOei94q7Ys++AvE/DPg+7xc/lLVlo7eHQ65s0R9CMa3jVdKSdXeLlvyisNcW1mJ4cVT9vVY9Ew73Qci3lJu/s82USxOQBQ87jUiadDJBwb3tz9liKexw+LZdYtXZ75SSWE0lH/x0Wb3h0JYXLxt5lrHalJBoB5xF751jQV01hSc7rjdWhGJe5YCe17Et4zwA0tjeLoi9GeqGFo9bL9/TNYR0FzX/10woeNknPKvJtYpD+ZFwgyciEXax3DMIVOx4Xjyktr34zPfhgegBNYphnsvslYSJ6LZSK3oIZj2hlyOxN+rVFiKtVjgPrlcbAxadKxpWttDXS5QI2co3ZEssla3kzKlEQYyR8YwXe+6w7jkykWdgnY3AVKt2gFYBxXjhHEjn37Ogz0zRSO87C6PDrRiB+iDGBVW0mRtTEaaYfbyQCYLrfpHvoc0lXKQL1yo1a8DTe+CCtnNbHzn3gk6dl7fXQJbIZOo2RxA==|920
+}//YLD/O0tH2zX7NpF6yrWBuDHJfA2Xs3q54M3WvaTBxg1An3bapCRI+iLtW8HRWjaR0xG1rem0xWAbnJSyvRDpVDGyHQR8jwxJ7wBDNTIGSTEKcpEV8ucNtpf+qwGpGmRn/BiyrzZ5H8xe1QfFKp79mH27LehCd6QKs02qRv2gk1pKBevlXuTBkzCl5S8rmqFfrWuA4SfQ7k3ul2HCdCFZIIJvDwR27gGUsrahHQnQf4rc3gdG1DMmrL8Ix3w++gf1o5jGF03RNrOiF2JknrZO37ueYthA77xGMThuQAehbDhfuOT9sUDXVIkgGd1eZlkAEpqji8RjVWTiytjkoXrQl3HZMIp5aZOt+QT8c0EYHXmd8UlggQD+yquGLYNQxp1lywxZzQKU1zeBZmtftpO3ZS7u5fLWe5Gm786xFu102ywvYdrM9Whur+13OgKBJqSwZr2ycVZoR4orO9W2EX7qPwoFHsn3xHJ/WgSn43D5tW2LiiY+zwyF7OgRLXOEbbgcWnvdbTyAv7fV/qG4+R0bHvXbgDygbmv4vjeiEQBm0/M484I//h3OYeNvKqS5W/gRYhDUmyo/6uhgTYBI732vjGf0zcoISLgmI6RcSpi6NawxdijptPR9sYq8CkJOawzX9uamVLRvWVzRHDUf9GzO9m4N+YVf6NHkk0N9/Sf65kKVIwcs7MGXJZMcybIZwHFLVa4/Ra2nqqjVO/GPHNg0esclVANGBAeX2i9mZazpodfkeosGnIfDJ7FFyNkRbme+UzEj7/Muj8abjN8baRIA0FFDcgNWLhaBtmNFbIqS/HYitknY+pUxOA3QMLcj+JvXfMJKJHmJlbpV81LCJKTZ+BohPVX6NV2GytM4FyAx8uWVtqOL4IQcNW8PbsMQAS9MCUBSHsx7T/wDwChdc1NbbA==|920

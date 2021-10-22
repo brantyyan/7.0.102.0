@@ -1,0 +1,41 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "参数1",
+          "TestData": "a"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "ServerDesignerCommon.Command.ExecuteSqlCommand, ServerDesignerCommon",
+      "ConnStrId": "1B77D134-B2AA-4867-AD46-053B8AD0D7E6",
+      "Params": {
+        "textValue": {
+          "Item1": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          },
+          "Item2": 16
+        }
+      },
+      "SqlStatement": "INSERT INTO \"表1\" (\"文本\" ) VALUES(@textValue );",
+      "TestingParameters": {},
+      "ID": "4fbb2283e42d4237af1abfb781a714fb"
+    }
+  ],
+  "Name": "SQLCommand"
+}

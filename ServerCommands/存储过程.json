@@ -1,0 +1,64 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "参数1"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.CallStoredProcedureCommand, ServerDesignerCommon",
+      "ConnectionStringID": "e5ff0f0b-89be-44ff-a2e2-70a21ff5c8b4",
+      "Name": "getTitle",
+      "AllowAcessRoleList": [
+        "FGC_LoginUser"
+      ],
+      "Parmeters": [
+        {
+          "Name": "id",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          },
+          "DataType": "int"
+        },
+        {
+          "Name": "title",
+          "Direction": 3,
+          "ReturnCell": "返回值",
+          "DataType": "varchar"
+        }
+      ],
+      "DisplayNameInDesigner": "[dbo].[getTitle]",
+      "ID": "ec6751af3d9b4f9da13fc81568fef975"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "返回值1",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=返回值"
+          }
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "返回值1"
+    }
+  ],
+  "Name": "存储过程"
+}
