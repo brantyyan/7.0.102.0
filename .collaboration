@@ -188,19 +188,6 @@
     "ModuleType": 15
   },
   {
-    "ModuleName": "TableView/外连视图",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-22T10:15:40.0134446+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\外连视图.json"
-    ]
-  },
-  {
     "ModuleName": "Table/sqlcommand_销售大区",
     "ModuleType": 7,
     "ExclusiveType": 0
@@ -239,12 +226,6 @@
   },
   {
     "ModuleName": "TableView/外联视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-22T10:16:57.7632521+08:00",
     "ModuleType": 23
   }
 ]
