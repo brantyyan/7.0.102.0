@@ -264,5 +264,15 @@
     },
     "LockDateTime": "2021-10-22T10:11:29.1373866+08:00",
     "ModuleType": 23
+  },
+  {
+    "ModuleName": "Table/人员",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-22T10:13:19.3929763+08:00",
+    "ModuleType": 7
   }
 ]
