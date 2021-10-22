@@ -225,26 +225,7 @@
     "ModuleType": 7
   },
   {
-    "ModuleName": "TableView/aaaa",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-22T10:20:21.2981544+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\aaaa.json"
-    ]
-  },
-  {
     "ModuleName": "TableView/外联视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-22T10:20:21.2981544+08:00",
     "ModuleType": 23
   }
 ]
