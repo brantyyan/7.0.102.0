@@ -5,6 +5,17 @@
   "Cols": {
     "Count": 60
   },
+  "Values": {
+    "1,1": "a",
+    "1,2": 3,
+    "1,3": 4,
+    "2,1": "b",
+    "2,2": 2,
+    "2,3": 5,
+    "3,1": "c",
+    "3,2": -1,
+    "3,3": 6
+  },
   "StyleDatas": {
     "Types": {
       "Strs": [
@@ -15,6 +26,345 @@
       "FontFamily": 0
     }
   },
+  "Charts": [
+    {
+      "ChartType": 7,
+      "DataOrientation": 0,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "DataSeries": [
+        {
+          "ChartType": 7,
+          "ValueFormula": "页面1!$C$2:$C$4",
+          "Name": "系列1",
+          "DataLabelStyle": {
+            "StyleInfo": {
+              "Fill": "Accent 4 80",
+              "FontFamily": "Body",
+              "FontSize": 14.670000076293945,
+              "FontStretch": "Normal",
+              "FontStyle": "Italic",
+              "FontWeight": "Bold",
+              "Foreground": "#FF00B050",
+              "Formatter": " ¥#,##0.00_);[Red] ¥(#,##0.00)",
+              "StrokeDashType": 8,
+              "Stroke": "#FF00B050",
+              "StrokeThickness": 1.5
+            },
+            "IsAutomaticStroke": false,
+            "IsAutomaticFill": false
+          },
+          "DataLabelSettings": {
+            "ShowBubbleSize": false,
+            "ShowCategoryName": true,
+            "ShowPercent": false,
+            "ShowSeriesName": true,
+            "ShowValue": true
+          },
+          "MarkerSize": "7,7",
+          "ConditionalFormatCollection": {
+            "Rules": [
+              {
+                "Conditions": [
+                  {
+                    "$type": "Forguncy.Model.Charts.ChartValueCondition, ServerDesignerCommon",
+                    "CompareType": 5,
+                    "Value1": "0",
+                    "Value2": "3"
+                  }
+                ],
+                "StyleInfo": {
+                  "Stroke": "Accent 4 -25",
+                  "StrokeThickness": 2.25,
+                  "StrokeDashType": 8,
+                  "EnableMarker": true,
+                  "MarkerSize": "7,7",
+                  "MarkerType": 4,
+                  "ForeColor": "Text 2 40",
+                  "FontSize": 13.3333333333333,
+                  "FontFamily": "等线",
+                  "Italic": true,
+                  "Bold": true
+                }
+              }
+            ]
+          },
+          "StyleInfo": {
+            "Fill": "Accent 1",
+            "StrokeDashType": 8,
+            "Stroke": "Accent 1",
+            "StrokeThickness": 1.0
+          },
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false
+        }
+      ],
+      "XAxises": [
+        {
+          "ItemsFormula": "页面1!$B$2:$B$4",
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorGridlinesStroke": "#868686",
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.5,
+          "StyleInfo": {
+            "FontFamily": "Body",
+            "FontSize": 14.67,
+            "FontStyle": "Normal",
+            "FontWeight": "Normal",
+            "Foreground": null,
+            "StrokeDashType": 8,
+            "Stroke": "Text 1",
+            "StrokeThickness": 1.0
+          },
+          "IsAutomaticStroke": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Items": [
+            -2.0,
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "MajorGridlinesStroke": "#868686",
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.2,
+          "StyleInfo": {
+            "FontFamily": "Body",
+            "FontSize": 14.67,
+            "FontStyle": "Normal",
+            "FontWeight": "Normal",
+            "Foreground": null,
+            "StrokeDashType": 8,
+            "Stroke": "Text 1",
+            "StrokeThickness": 1.0
+          },
+          "IsAutomaticStroke": false
+        },
+        {
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorGridlinesStroke": "#868686",
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.02,
+          "Visible": false,
+          "AxisPosition": 1,
+          "StyleInfo": {
+            "FontFamily": "Body",
+            "FontSize": 14.67,
+            "FontStyle": "Normal",
+            "FontWeight": "Normal",
+            "Foreground": null,
+            "StrokeDashType": 8,
+            "Stroke": "Text 1",
+            "StrokeThickness": 1.0
+          },
+          "IsAutomaticStroke": false
+        }
+      ],
+      "Legend": {},
+      "PlotArea": {},
+      "Name": "Chart1",
+      "Location": "180,324",
+      "Size": "480,290"
+    },
+    {
+      "ChartType": 7,
+      "DataOrientation": 0,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "DataSeries": [
+        {
+          "ChartType": 7,
+          "ValueFormula": "页面1!$C$2:$C$4",
+          "Name": "系列1",
+          "DataLabelSettings": {
+            "ShowValue": true
+          },
+          "MarkerSize": "7,7",
+          "ConditionalFormatCollection": {
+            "Rules": [
+              {
+                "Conditions": [
+                  {
+                    "$type": "Forguncy.Model.Charts.ChartCategoryCondition, ServerDesignerCommon",
+                    "Value": "a"
+                  }
+                ],
+                "StyleInfo": {
+                  "EnableStroke": true,
+                  "Stroke": "black",
+                  "MarkerSize": "7,7",
+                  "ForeColor": "#FFFF0000",
+                  "FontSize": 18.666666666666664,
+                  "FontFamily": "方正舒体",
+                  "Italic": true,
+                  "Bold": true
+                }
+              }
+            ]
+          },
+          "StyleInfo": {
+            "Fill": "Accent 1",
+            "StrokeDashType": 8,
+            "Stroke": "Accent 1",
+            "StrokeThickness": 1.0
+          },
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false
+        },
+        {
+          "ChartType": 17,
+          "ValueFormula": "页面1!$D$2:$D$4",
+          "Name": "系列2",
+          "DataLabelSettings": {
+            "ShowValue": true
+          },
+          "MarkerSize": "7,7",
+          "IsSecondaryAxis": true,
+          "ConditionalFormatCollection": {
+            "Rules": [
+              {
+                "Conditions": [
+                  {
+                    "$type": "Forguncy.Model.Charts.ChartCategoryCondition, ServerDesignerCommon",
+                    "Value": "b"
+                  }
+                ],
+                "StyleInfo": {
+                  "EnableStroke": true,
+                  "Stroke": "black",
+                  "MarkerSize": "7,7",
+                  "ForeColor": "#FFFFC000",
+                  "FontSize": 26.666666666666664,
+                  "FontFamily": "华文行楷",
+                  "Italic": false,
+                  "Bold": true
+                }
+              }
+            ]
+          },
+          "StyleInfo": {
+            "Fill": "Accent 2",
+            "StrokeDashType": 8,
+            "Stroke": "Accent 2",
+            "StrokeThickness": 1.0
+          },
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false
+        }
+      ],
+      "XAxises": [
+        {
+          "ItemsFormula": "页面1!$B$2:$B$4",
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.5
+        }
+      ],
+      "YAxises": [
+        {
+          "Items": [
+            -2.0,
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.2
+        },
+        {
+          "Items": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.2,
+          "AxisPosition": 1
+        }
+      ],
+      "Legend": {},
+      "PlotArea": {},
+      "Name": "Chart2",
+      "Location": "181,14",
+      "Size": "480,290"
+    }
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
@@ -27,4 +377,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//d74iqvwjYmCSCpj/VEa4mgTef28VWhnY71ilrGL/SObE8nh6Kxro9aoWxXbarN74HgOz5HIhW+hNFvCpvVAJ+dQmAGQ8sf2p4NWqjYXaK/hSQB9mn3XfOYard7scYjbhUSIs4ZjNTswKZXqyqyV36JDgaqiPBaa+QBrovYq+wcl8W/dPa/CSFHrvvR4RLKm0vLoWfV8t8/6mhNLWgr+mXHuBwjGsaCmXnayKh16ymfPRUXxAqPLKRgfWlWcLPAFb488yeMV3wQ1odBi/sn5SFlva4bjS/THyyum24Jm3rfumurwsrm+h8U9MwlDSgJWAYvoOBDlDGE3mlzgwajsPplIOdjL3fIT5yBEr+dhchx0o0+7oEmqWtzWCzEwXkEr7cOgENrJMiXQj/pGjB0iCjiYbYPGDKWc3IJWkgjywH+KwgdH4Be0GM4IzLJEjjpmIEGKB9PbhWnZLQI2/2t9UzFc+xQfnoKnap5UQN9EO+XrD8yISHiIZRsCRvRGd+OplulWz4gj2i6MJRRYv85ZZ6Wt2fg1T7Y1cZZ7w7K2lLowq1BLfb0RtRYc0FImH+fmPn9xSeMN2hGfSJDaAF83dlwiIkW3njuuyzBtx24cJI+3AZ8RsppD8MkUvpriIS8+v9JqlW/X++rYWKDBeHbj/Bx+DsePpAu7XcNmSOif82RcP7qo/8t+FyI1yYnX47bhUphg3wTY6yfgSjRGtYiqBdbyXJnP/3uVi6FARYl3wB8hyPiqtGY8+gkGku/NZnRQ10C4ZEG6gzHQkBXjy7rWYiqzwOiNuCYHwHZ1JYe3rJyA/1R9K2OZ1Pr4TZPh1FS4M5GbV9SNJDSna8MI6yxj8B/+I4Uadnd1y++XXPts6NOzK01pBn38tiGT/Jk3VJplgkQyH1XGPKQU/+1/KtOcTUw==|920
+}//hNZkyICEp7+wUGa+8DjClOC7IqgZgASHC9TQpH0Q8z3k9wULdXGA9Uf2mtjPIo3NXQ8dJjsuufz7QmIDY9Bl2DsPc8e6GshEBXORHvnkQRGwwThnADvghaj1DcesGGqcCXL8yKeeL950UvAcfqkKeYfIFFhc0xcB8W2I7y4CDOUdhAbjafM7VW1jADKLM4NswAUl/StLJoNTygVKWKkHWhXbeaKQ88pRJlA9VEr9/7lLuuy2xOrup2Q9IKO/EhXYJs5vFUz1seH02NPm3PtXwr7kirIBnSldw4grfUxvurGtnpf+ETb2gP5KDmTg10To93zn9yGnOhBM/9N2cwnb6f+JuJb25hiuDLMTd3WsOik+HYjFv93k26m4BJyhs78fHNmYV5A5OAsHtymX8B/IT7sCgnkTfbZjbXRotslPwXctZAgKAC5MOei94q7Ys++AvE/DPg+7xc/lLVlo7eHQ65s0R9CMa3jVdKSdXeLlvyisNcW1mJ4cVT9vVY9Ew73Qci3lJu/s82USxOQBQ87jUiadDJBwb3tz9liKexw+LZdYtXZ75SSWE0lH/x0Wb3h0JYXLxt5lrHalJBoB5xF751jQV01hSc7rjdWhGJe5YCe17Et4zwA0tjeLoi9GeqGFo9bL9/TNYR0FzX/10woeNknPKvJtYpD+ZFwgyciEXax3DMIVOx4Xjyktr34zPfhgegBNYphnsvslYSJ6LZSK3oIZj2hlyOxN+rVFiKtVjgPrlcbAxadKxpWttDXS5QI2co3ZEssla3kzKlEQYyR8YwXe+6w7jkykWdgnY3AVKt2gFYBxXjhHEjn37Ogz0zRSO87C6PDrRiB+iDGBVW0mRtTEaaYfbyQCYLrfpHvoc0lXKQL1yo1a8DTe+CCtnNbHzn3gk6dl7fXQJbIZOo2RxA==|920
