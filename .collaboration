@@ -226,6 +226,15 @@
   },
   {
     "ModuleName": "TableView/外联视图",
-    "ModuleType": 23
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-22T10:17:20.4954674+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\外联视图.json"
+    ]
   }
 ]
