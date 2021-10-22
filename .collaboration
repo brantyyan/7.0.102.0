@@ -211,7 +211,14 @@
   },
   {
     "ModuleName": "TableView/外连视图",
-    "ModuleType": 23
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-22T10:11:08.1100619+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/sqlcommand_销售大区",
