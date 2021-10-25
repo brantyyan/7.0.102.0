@@ -244,5 +244,15 @@
   {
     "ModuleName": "Tables/外连表",
     "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/表2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T08:43:49.6743371+08:00",
+    "ModuleType": 7
   }
 ]
