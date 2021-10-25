@@ -1,0 +1,86 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "参数1",
+          "TestData": "1000"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "aaa",
+      "TableValue": {
+        "TableName": "表1",
+        "TableValueType": 1,
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "表1",
+              "ColumnName": "文本"
+            },
+            "ColumnName": "文本"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "表1",
+              "ColumnName": "整数"
+            },
+            "ColumnName": "整数"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "表1",
+              "ColumnName": "小数"
+            },
+            "ColumnName": "小数"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "表1",
+            "ColumnName": "ID"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          },
+          "Id": "87243055-0f69-4c86-bc30-07235d2b58dc"
+        }
+      },
+      "ID": "bf428ce010cf4885ac710fa3b0200479"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "返回值1",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=aaa.文本"
+          }
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "返回值1"
+    }
+  ],
+  "Name": "SetParameter command"
+}

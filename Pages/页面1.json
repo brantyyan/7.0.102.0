@@ -19,7 +19,9 @@
     "3,2": -1,
     "3,3": 6,
     "4,37": "存储过程",
-    "7,37": "SQLCommand"
+    "4,48": "SetParameter command",
+    "7,37": "SQLCommand",
+    "7,48": "SetParameter command"
   },
   "AttachInfos": {
     "1,39": {
@@ -78,6 +80,42 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
+    "4,48": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "SetParameter command",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AN2"
+                },
+                "ParamName": "参数1"
+              }
+            ],
+            "ResultMessageTo": {
+              "SerializeProperty": "=页面1!AL4"
+            },
+            "ReturnPropertiesTo": [
+              {
+                "ResultPropertyName": "返回值1",
+                "ResultTo": {
+                  "SerializeProperty": "=页面1!AX2"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "SetParameter command",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
     "7,37": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
@@ -96,6 +134,61 @@
           }
         ],
         "Text": "SQLCommand",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,48": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "aaa",
+            "TableValue": {
+              "TableName": "表1",
+              "OnlyGetValue": true,
+              "TableValueType": 0,
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "表1",
+                    "ColumnName": "文本"
+                  },
+                  "ColumnName": "文本"
+                }
+              ],
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "表1",
+                  "ColumnName": "ID"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AN2"
+                },
+                "Id": "ce816076-6f46-49a8-a2b0-eef3493390c4"
+              }
+            },
+            "ID": "291f363f3c5d479e81a26fc052081547"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AX2"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!aaa"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "SetParameter command",
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
@@ -191,6 +284,24 @@
       "1,39": 0,
       "1,49": 0,
       "5,47": 1,
+      "7,48": 1,
+      "7,49": 1,
+      "7,50": 1,
+      "7,51": 1,
+      "7,52": 1,
+      "7,53": 1,
+      "7,54": 1,
+      "7,55": 1,
+      "7,56": 1,
+      "8,48": 1,
+      "8,49": 1,
+      "8,50": 1,
+      "8,51": 1,
+      "8,52": 1,
+      "8,53": 1,
+      "8,54": 1,
+      "8,55": 1,
+      "8,56": 1,
       "11,37": 2,
       "11,38": 3,
       "11,39": 3,
@@ -257,6 +368,8 @@
     "12,39,1,4",
     "12,43,1,4",
     "7,37,2,8",
+    "4,48,2,9",
+    "7,48,2,9",
     "11,37,1,2",
     "11,39,1,4",
     "11,43,1,4"
@@ -612,4 +725,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//5tMDjJrTAj2rNXvR1WOUrIvD7TY7puIW3fHBmQAfP9F3xTFoWTuIOukMjylpnrFdynO6BX/WU3pBddotTcnq9vDX4ldhvTS9dIrkw5f3p7ygvCeIVUZx8HWFdn9XxEOFKFR7yQmxKejZoFF1s8K6iQ2sYC450suFoh4YBJ9Bomdf9utS/ed/H9Jtzc54OAHOF9unGZWsVENg03M4LFN4tdCbrFfQo1zmp+9iQ00V5VhpzVJbbr56DOUfxYDmIy8Dk3lRuJUoEXI4hq9wThnApjI5u2+fKifxCqNa9xULGcAJH7LwFQ+6e6jkcFSAdZTZNuOgjp9a9ZkaQTPsM/XlKPhtnJsuW/iYItS/ZMh4Cg3C5umNjelhNlev9jNMJ2HDYPc38ZwyaNCmzImFQ/Z5cG4PIztl2P2zlRFi+OIfXqaVPM9aqA8nYGtBszALnB7JJHnpD+jVAD29qBQpCWe+UXj9HmBxqZSM9aI7ena4AGaEVrxuuqvlvpBUbDublO6B3wBDZt9C+XoptaCAEek5F2ZWJgEixRBvSXa7d7vv85i3ZQ5ysn9xBPT22E13MgA0uhOlUOnHp0Hc6tp4du9Vktfp6nkhQ2BJeu951OTpau5XYKTvQUwWscacurdLTwYptqUOQbyLC8lVffOiXXxY7r75dtv9e04qHSNgRANCh8hgO+sCjcDnelqNd4Ea+W2C5wBwK7M/ms+ecEakhvQge8wVAh/JWKpvgVje3cOiJj0Be59bO2qWXKJGhVEEpA5sYPgOQCA0oEkT+0IC0SK9H54cIyzWjolUI+OdQhKyDwZl2KG1Uvas7KS0hcxnBQdzdK9ubgaI3euAQ/N25LZ6oZM77tkwLAHzt6jYkMeZ3h4NqKnclI7H8WG1qtE5DwJXyp7KNDQBXFltwrKzLWWsyg==|920
+}//P+OL64jrmRg8Z1EnJlIvAYx8aFJ4w7GjwwzT9t2aC/vLtuZOX8636vGKyomc0agsjDiuSL7/hcEyzC5MhWIGnO7BJYn8yd8aPxTaItWoo38yqjYUG+9o3qccAyt8RLxfq3aWR7Ps4UYmThcS9sXBHMI9eWBo0vvXYv2sJK8BoZtEQHj559cvsDOy7GIgvhxtXI8/uML8m5aBDJWP5wS2OGnTKgBjO0kXdY7cE2fhML4vU9IqofNcOzxmUuENdgaCn4Jd8Et05g+PDTIIn9yjrXSOkTcMTI5uLCUaYTFMBd/c8kVU1qS77ryuu8YRH0XMBGUdty42Dzk2u8ZpxE4NVtHftQ7x6vF/Xjt8ueiJSrUWWJwCw7GTd9TGt1FPwoKwR9cn8miHE7Up+iKP/njAAoK+iraWhherhwC2UYOKpmgRVEFsSPWrs4q4+w+uvsbzFgedtNIFZQWQbOyc5iVPeNPu9L3Bh3QK6qt1QQ4SevfJixNzDQBG1DygVagGtisXDEePEFTtfQlogisg1ldiSv3mH5XozzrPnSS83iO+xK3DnDdCTjf4y+e18hASdPWunGmSZ8Bjrqydh2yHkLywG15/+P8gsPQW5QUSm+5zh2RuJBY0OgcSmsqrKARft+l0n9VwSqgEOpmVwuhF3jSNjS5wdNccT6lbBlR1Pg4nY7Rtv8A8+ZtLhN2HXC0imsjrzKAMF+hu1PSBeKDxUE1gTiSl8c58ARhcj2j7+h+GJKSdbhDKplxNsogKkkZlW8n2fPZns6jp4gZZlnzGHpRcg2L9mPO+bKlEN1y7tRTqNvbce48TxTaIVmSLeEeqG68U2UlkKBlwjpI0DJ+X0I/2qyVjtli78z4Bu7j76CXuP2BFNMie/QgAknw3/GZmMK3WUfkD6/3doyN+V5orEMeNKQ==|920
