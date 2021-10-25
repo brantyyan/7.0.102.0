@@ -97,16 +97,7 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T12:12:18.826429+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
@@ -118,34 +109,11 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T12:12:18.826429+08:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "C:\\Users\\brantyyan\\Documents\\ForguncyCollaboration\\7.0.102.0-master\\Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "ImageSelector",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T12:11:01.9453321+08:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\fgc_logo_dark.png",
-      "image\\fgc_logo_light.png"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "UserService",
@@ -186,16 +154,7 @@
   },
   {
     "ModuleName": "PCPage/Employee_List",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T12:28:20.6865824+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Default Value\\Employee_List.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/Default Value",
@@ -226,16 +185,7 @@
   },
   {
     "ModuleName": "ServerCommand/服务端命令1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T12:28:20.6865824+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\服务端命令1.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "Table/sqlcommand_销售大区",
@@ -325,17 +275,7 @@
   },
   {
     "ModuleName": "PageReport/页面1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T14:50:59.8517097+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\文件夹1\\页面1.json",
-      "Reports\\文件夹1\\页面1.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/报表1",
@@ -363,12 +303,6 @@
   },
   {
     "ModuleName": "MobilePage/mobile",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T13:37:35.0501383+08:00",
     "ModuleType": 2
   }
 ]

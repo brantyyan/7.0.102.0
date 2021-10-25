@@ -7,7 +7,33 @@
         "AllowRoles": [
           "FGC_LoginUser"
         ]
-      }
+      },
+      "Parameters": [
+        {
+          "Name": "参数1"
+        },
+        {
+          "Name": "参数2"
+        },
+        {
+          "Name": "参数3"
+        },
+        {
+          "Name": "参数4"
+        },
+        {
+          "Name": "参数5"
+        },
+        {
+          "Name": "参数6"
+        },
+        {
+          "Name": "参数7"
+        },
+        {
+          "Name": "参数8"
+        }
+      ]
     }
   ],
   "Commands": [
@@ -47,7 +73,7 @@
           }
         ]
       },
-      "ID": "1bc893ebc1c94d33ab8e80bb9cdd98f7"
+      "ID": "c7c92b61e1c94082b1e4946cb4ac6e7d"
     },
     {
       "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",

@@ -20,8 +20,11 @@
     "3,3": 6,
     "4,37": "存储过程",
     "4,48": "SetParameter command",
+    "7,1": "服务端命令1",
     "7,37": "SQLCommand",
-    "7,48": "SetParameter command"
+    "7,48": "SetParameter command",
+    "11,1": "打开报表",
+    "34,37": 0.1
   },
   "AttachInfos": {
     "1,39": {
@@ -116,6 +119,60 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
+    "7,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "服务端命令1",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数1"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数2"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数3"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数4"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数5"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数6"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数7"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数8"
+              }
+            ],
+            "ReturnPropertiesTo": [
+              {
+                "ResultPropertyName": "返回值1"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "服务端命令1",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
     "7,37": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
@@ -167,10 +224,10 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=页面1!AN2"
                 },
-                "Id": "1732cddc-5350-425b-9d66-47c653de87c2"
+                "Id": "26745247-bd9a-4d01-a5c8-cef271ad9347"
               }
             },
-            "ID": "cbade51bb4b34b698ca0ccc47aea2af3"
+            "ID": "82cfce99b83d46a8bc797bcaee5d6c5c"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -192,13 +249,28 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
+    "11,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+            "SessionGuid": "3bb39ccb-5e28-4265-9d73-cd67410538a7",
+            "SideBarPosition": 0,
+            "OpenReportName": "页面1"
+          }
+        ],
+        "Text": "打开报表",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
     "11,37": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
         "TableName": "表1",
         "RowIndex": 11,
         "ColumnIndex": 37,
-        "ColumnCount": 19,
+        "ColumnCount": 10,
         "RowCount": 9,
         "AllowEditInListview": true,
         "AllowAddNewRow": true,
@@ -210,6 +282,13 @@
         "Name": "表格1",
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "11,49": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Shadow_Style1",
+        "ImagePath": "timg.jpg"
       }
     },
     "12,37": {
@@ -236,7 +315,7 @@
         "TableName": "人员",
         "RowIndex": 22,
         "ColumnIndex": 37,
-        "ColumnCount": 20,
+        "ColumnCount": 17,
         "RowCount": 11,
         "AllowEditInListview": true,
         "AllowAddNewRow": true,
@@ -266,6 +345,37 @@
       "BindingInfo": {
         "TableName": "人员",
         "ColumnName": "入职日期"
+      }
+    },
+    "23,49": {
+      "BindingInfo": {
+        "TableName": "人员",
+        "ColumnName": "文本"
+      }
+    },
+    "34,25": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "34,37": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsSelectAllOnFocus": true,
+        "WaterMark": "",
+        "CellDefaultValue": 0.1
       }
     }
   },
@@ -304,13 +414,26 @@
       {
         "BorderBottom": 0,
         "BorderRight": 0
+      },
+      {
+        "Formatter": 3
+      },
+      {
+        "Formatter": 4
+      },
+      {
+        "Background": 5,
+        "Formatter": 4
       }
     ],
     "Types": {
       "Strs": [
         "@",
         "Body",
-        "DarkGray"
+        "DarkGray",
+        "0%",
+        "0.00%",
+        "#FFFFFF00"
       ],
       "Borders": [
         {
@@ -349,30 +472,93 @@
       "11,43": 3,
       "11,44": 3,
       "11,45": 3,
-      "11,46": 3,
-      "11,47": 3,
-      "11,48": 3,
-      "11,49": 3,
-      "11,50": 3,
-      "11,51": 3,
-      "11,52": 3,
-      "11,53": 3,
-      "11,54": 3,
-      "11,55": 4,
+      "11,46": 4,
+      "11,49": 1,
+      "11,50": 1,
+      "11,51": 1,
+      "11,52": 1,
+      "11,53": 1,
+      "11,54": 1,
+      "11,55": 1,
+      "11,56": 1,
+      "11,57": 1,
       "12,37": 5,
-      "12,55": 6,
+      "12,46": 6,
+      "12,49": 1,
+      "12,50": 1,
+      "12,51": 1,
+      "12,52": 1,
+      "12,53": 1,
+      "12,54": 1,
+      "12,55": 1,
+      "12,56": 1,
+      "12,57": 1,
       "13,37": 5,
-      "13,55": 6,
+      "13,46": 6,
+      "13,49": 1,
+      "13,50": 1,
+      "13,51": 1,
+      "13,52": 1,
+      "13,53": 1,
+      "13,54": 1,
+      "13,55": 1,
+      "13,56": 1,
+      "13,57": 1,
       "14,37": 5,
-      "14,55": 6,
+      "14,46": 6,
+      "14,49": 1,
+      "14,50": 1,
+      "14,51": 1,
+      "14,52": 1,
+      "14,53": 1,
+      "14,54": 1,
+      "14,55": 1,
+      "14,56": 1,
+      "14,57": 1,
       "15,37": 5,
-      "15,55": 6,
+      "15,46": 6,
+      "15,49": 1,
+      "15,50": 1,
+      "15,51": 1,
+      "15,52": 1,
+      "15,53": 1,
+      "15,54": 1,
+      "15,55": 1,
+      "15,56": 1,
+      "15,57": 1,
       "16,37": 5,
-      "16,55": 6,
+      "16,46": 6,
+      "16,49": 1,
+      "16,50": 1,
+      "16,51": 1,
+      "16,52": 1,
+      "16,53": 1,
+      "16,54": 1,
+      "16,55": 1,
+      "16,56": 1,
+      "16,57": 1,
       "17,37": 5,
-      "17,55": 6,
+      "17,46": 6,
+      "17,49": 1,
+      "17,50": 1,
+      "17,51": 1,
+      "17,52": 1,
+      "17,53": 1,
+      "17,54": 1,
+      "17,55": 1,
+      "17,56": 1,
+      "17,57": 1,
       "18,37": 5,
-      "18,55": 6,
+      "18,46": 6,
+      "18,49": 1,
+      "18,50": 1,
+      "18,51": 1,
+      "18,52": 1,
+      "18,53": 1,
+      "18,54": 1,
+      "18,55": 1,
+      "18,56": 1,
+      "18,57": 1,
       "19,37": 7,
       "19,38": 8,
       "19,39": 8,
@@ -382,16 +568,16 @@
       "19,43": 8,
       "19,44": 8,
       "19,45": 8,
-      "19,46": 8,
-      "19,47": 8,
-      "19,48": 8,
-      "19,49": 8,
-      "19,50": 8,
-      "19,51": 8,
-      "19,52": 8,
-      "19,53": 8,
-      "19,54": 8,
-      "19,55": 9,
+      "19,46": 9,
+      "19,49": 1,
+      "19,50": 1,
+      "19,51": 1,
+      "19,52": 1,
+      "19,53": 1,
+      "19,54": 1,
+      "19,55": 1,
+      "19,56": 1,
+      "19,57": 1,
       "22,37": 2,
       "22,38": 3,
       "22,39": 3,
@@ -408,28 +594,26 @@
       "22,50": 3,
       "22,51": 3,
       "22,52": 3,
-      "22,53": 3,
-      "22,54": 3,
-      "22,55": 3,
-      "22,56": 4,
+      "22,53": 4,
       "23,37": 5,
-      "23,56": 6,
+      "23,49": 10,
+      "23,53": 6,
       "24,37": 5,
-      "24,56": 6,
+      "24,53": 6,
       "25,37": 5,
-      "25,56": 6,
+      "25,53": 6,
       "26,37": 5,
-      "26,56": 6,
+      "26,53": 6,
       "27,37": 5,
-      "27,56": 6,
+      "27,53": 6,
       "28,37": 5,
-      "28,56": 6,
+      "28,53": 6,
       "29,37": 5,
-      "29,56": 6,
+      "29,53": 6,
       "30,37": 5,
-      "30,56": 6,
+      "30,53": 6,
       "31,37": 5,
-      "31,56": 6,
+      "31,53": 6,
       "32,37": 7,
       "32,38": 8,
       "32,39": 8,
@@ -446,10 +630,9 @@
       "32,50": 8,
       "32,51": 8,
       "32,52": 8,
-      "32,53": 8,
-      "32,54": 8,
-      "32,55": 8,
-      "32,56": 9
+      "32,53": 9,
+      "34,25": 11,
+      "34,37": 12
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -459,23 +642,30 @@
     "1,39,2,6",
     "1,49,2,7",
     "4,37,2,8",
-    "13,37,7,19",
     "12,37,1,2",
     "12,39,1,4",
     "12,43,1,4",
     "7,37,2,8",
     "4,48,2,9",
     "7,48,2,9",
+    "23,37,1,2",
+    "23,39,1,5",
+    "23,44,1,5",
+    "23,49,1,5",
+    "34,25,2,8",
+    "34,37,2,7",
+    "13,37,7,10",
+    "11,49,9,9",
     "11,37,1,2",
     "11,39,1,4",
     "11,43,1,4",
-    "24,37,9,20",
-    "23,37,1,2",
+    "24,37,9,17",
     "22,37,1,2",
-    "23,39,1,5",
     "22,39,1,5",
-    "23,44,1,5",
-    "22,44,1,5"
+    "22,44,1,5",
+    "22,49,1,5",
+    "7,1,2,6",
+    "11,1,2,6"
   ],
   "Charts": [
     {
@@ -822,10 +1012,11 @@
       "VisitMode": 2
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": []
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "人员"
   },
   "PrintInfo": {
     "Margin": {},
     "PaperSize": {}
   }
-}//23fAvGQ2ysk8dI6GFaHtROCBW/AEbNMPoaCOkE+SdDKDlLAblQto8o/0O9h7ixZCjPMGqnuFXXv18lRDpQydqn8nDlmt/GUxFgO1XiByvRyx1wf1iAhv5iV/WyIkWdygKF9PfLNaAvLU3bjENbzlHsu87UdsBkRZnBw3ceQOMyW9om2ijosefKoyyzF2gInR6zYW/ACKAkxfsB4duRscZF2K77qu0Yws2Cmtq1EcfqMo595KJ6aIAnW6M5vuysqxP9KssYkpBql9bA5Bjv9ngDZq7XuAYs+PIAfopMvWgCyUI5/Iiz/WV004b5IUtG4/jMM/iov4TkYm2u7OeITB1uG+B0vrclXM2uFwuaTk+MlEubhJXITr86JpijNncBMmlKY7GilmOyOgqJq5N8S/uvW8Uvvlfrpx83BsyGb+L9fh4cDVLQx6RBnAZ1LyvuSYRUwoc+qualW/GhfJrLaqCyfgRqD8TKac3mVtThBDe0yrNxo+YfQLUDs0jo6QaIhRspJoLT4CTwAEpTAEljrySsyvDl5nnuWOlXkvNoRQaR1VVRPE+lG7ehyqiEAifgdJLsb9QsW72KEqruTV4IrpWrCUfIy22+1XRlzqwKGnfmtx5zTZnm6PRkqhsgj7gNqLDE1T/s3mx037ymAjvApqdQs06iV671+/oJ+fvgDue9V0IrEUS7lTgnLZ4CwqW46gp68iiVBnlYfKTRI6qrkcyW9/XFNXbZ37fYT94lZgAhunXPxGjcVpkGt9MGg1zW4t/lv4krEh7Cf9E6kbboQi133mhoSvLbcU/k482SAuwhfjjV/AAIyMKbjH7FoWOothH4tPWq6LWe4SuoM6zPnIP2NM7+9iSy7jcodEJpXThEPXUXNrP/Vi+WfpRpw4iM+Kx+2eiUuCCDfI3RGtMNcqpg==|920
+}//GJhyOYtjVznc77EfyrImXpJ79eTg3dUcQk7bnqF4esV6Td2I4kULkLV7dcLNMsK9EVWhPAAT2f1UcbQc+bL26ZS41yhOYs8cqpI/vgaoUUyB8gUtSIOzCBouFWPSNPOshznWQbkP5Nciq0N1NP4w2+XDCXXmYC/+jFoWsv3+G/Lpoj1BlTmICLV8WFirx2Ou9Kc4PaIg7l3GV3nx+ijiB5YrX5igwfs7t4kT5Dzw6xuGCkwrKpryQfWo4OF0Uv8n7shxWnJk6/tsdIhmGpuX0WCTDzuJ/qe5cGrmFW4q+gEfn6jpHzTbCCmMPfndo2CMuTtvZQqMCNo8L7MeLXGfXLpxPAxXh4mXpnG9GrLURvzYsCrAZVEt8wXNk/nIm7WaZLVXmki8MV/di/Ts/r1atOkS14q8itbb4/3lyQCaQXslmlFX96nTFk3xu03pC8nx1nJkwOkKG2RFkTWYDhxaB9CCzGp+enRCS7NHPEBo/aIXNMqnC1vKgHCc3MFBhcLpxs4NvNq7gwapExwICW8nwWMPASSDn44KkGQPVsg2WobkIfHqGWF7UqTtRDm25SOAafVwltPLn0wAKKMWzLzV3vH5Md6SRcl+p40p2yl0KMWIhC/xzotCj/MXVAEL5Wo10N+Bbm1WPwmDb43tFTYTk2n2SSKNVadPb+P2ENVdG4jBriKMqmx5npp2CdqNpGbveKUt4RC0nt/9X1jEKynSy39flFnQL+1dCN+Q0L9PXOrZC3Ify3owMODMupRmW/KXdvT+gVyyd732viIEPtd+I2d9mdaTCfshjemqYrEGlj0wQukCCRfmaJOdSJq1UWqZYugH1vDoOLmhuZtSfU4B/CJCi4CgEIVHdmFHpVkCxed6S/QMf6H748LnZ+kIou3tBK6so+5xc/6UBl3KKrtEUQ==|920

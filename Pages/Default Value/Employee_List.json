@@ -275,7 +275,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "Forguncy.Page.getListView(\"表格1\").addNewRow({\"Name\":\"aaa\"});\r\n",
-            "ID": "7da53528dfef4d008e2635f91abd7345",
+            "ID": "fff65c48dbb64537bc36b2a0f489c211",
             "Comments": "aaa\r\nccc\r\nvvv\r\n\r\nccccc\r\nssds\r\n"
           }
         ],
@@ -290,6 +290,40 @@
           {
             "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
             "ServerCommandName": "服务端命令1",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数1"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数2"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数3"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数4"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数5"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数6"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数7"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数8"
+              }
+            ],
             "ReturnPropertiesTo": [
               {
                 "ResultPropertyName": "返回值1",
@@ -570,7 +604,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "Forguncy.Page.getListView(\"表格1\").showColumns([\"Department\"]);\r\n",
-            "ID": "f7c5dd2bc9894066877d916421d46045"
+            "ID": "78bfa7c2407c46adab078ea50bb30d96"
           }
         ],
         "Text": "show column api",
@@ -626,7 +660,7 @@
                 }
               }
             ],
-            "ID": "a34b707b66df4b3ca12ee952f3612c3c"
+            "ID": "f67ccf943f1a423cac371f06e30027f4"
           }
         ],
         "Text": "column option",
@@ -640,7 +674,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
             "JavaScript": "Forguncy.Page.getListView(\"表格1\").hideColumns([\"Department\"]);\r\n",
-            "ID": "0aa179b3cd6641d5b5eec2173d2d74b7"
+            "ID": "e4e642dfc4244a4e828d23ec5cfdc16f"
           }
         ],
         "Text": "hide column api",
@@ -1125,4 +1159,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//EY8WmunLbEzgDgqjhDXkQf0Jp5Tk6mPbY1l9MqyN2hWWCZk61vMUU3slc11TxWOrXBDBfSwE577SkA0VBy8kgo4R1azH3kPXPagc25MHefaENeTikNvmiCvZg51s5N6PhHMiSojdV3o6lV4ZQeJdqCGGhMWpFw4mNr0NC9iHTCkDEUBTnE/yuThhESlxS0oe3uu9couNXkkM68KBAPoJc6xS9PQsKTY5QZ1TgBdNtv9cNi/RWrDWVAk2cNc47eTzgmxJCD+zbfxFXJKQ5cLOyUazJGn1AJUEJEDhCoStR41NENUKuVpGb/aZ2tnA+elovGBE6KjvZdxzIx+/BYXdAmMhr/D/gx8C3rQ00eRepOgbLDQLB5G2aKbyZAjSdwdN4g/wXRzUUtG06JXSFUINm2PcjUk8RVOYb3hKi/rSPXqzITEoR5gAz3SVc4J0G52WBKYWgojhIb7APtQ1zrY6zsZddoGyE0/eIaEkujrh0k389n1r+yFdyBNYMEVApsRH5Y6uQzFnHb1Ipz4GQYobDIG9cBSDefloBAWIb4bA3wOJdvLDnat+2yWyv0oJtMbeZPV5l9LLhUo9un7/UlFv0dEn9n/33WdBdSgWI5xjkPrcJpvJVQYUMMwLHy+wIzhIjmZRT9fLtqHlcl4Deo4k6apzTmF3VWHgY8tqf1x1BuquCEolap1eIFz9ZX+09xFZl2aELyA/HFZVqd/UaApsZWUx5Y8KAwINjDZ6AkslAQI7VF/IvdrTxzmYCSRptZiOIQ1Uo+JSBvn7dplv3K3I7BoXTgUPmnyqeuexvGPofiQStCnAVqchSYapTyJsy2EVNTBzPWCCVv0mn/4R3jWkDmSX69s5m5tDiFdP8Mj+Hf59NA4mKfrN3umDlgjuFBZIqdDTj1ralY1ztAck3BLdfw==|920
+}//R/RgvIlJGZtlSIgmcBWHnj7svGvBkCuO71extkev5K3qiYSnTRYFRqg0GXQkzX49j+T3/4km5lkc1xoUDn4LEIDErDF6Yo1Gu3uzTKEh1WGHppSor09Xx+PYP5Qj55C3flH0qbfc7JAEk40bG+LH2UQlsBvX6+15nNWTidUomdc9naJyznqiac0pWEwgLRZZMOtngk5Zkdtr9wL7/8td2f/VUOSacBPGkkmOQ5M/Y5XquLmQKQydSNWM+P+3yWsKdjBJwEwWuWagtEnQkUKzI5+erqOwBX67+Es7LqjMnLhBvM/0cu9fhO7e92nD/2Z5g/LeMlZarlPEXJnpa0FmNRZM2wqaGyqAC1v/cSE6BE+ZosMuA3npmc/RTIzcCs8LDLl1UturOJ/SpwEavmhYdP8nGCQbRbxxjmJP+OzvgR6U1widGXIufbmfJndVqckP7GRnrUFiKqbezcZPGpriamFN7WwprQWtmEL6W7KDkjpSWucUG82uPIk3c8fVR1xcH3QRmUsa01glnpGQYDKaJ2/5vTE4iQexpOW4LgkxswmQf59krVaKuqL/HvkmGY7199WzBTQwj/e81hgMQnIMdtdMTCS8PfKk0bKxznfQ3Mlsi2a3O1sjM3+AMG0GevYkxozzS8mVGv1r7V6huf0hSiGyTlK4av4cOUGchurhCNBAyUFIFEi1a/fAfYLk8hDo8EIjP4H12tz0dXMfSlz/41UQaJqec7y6dHfDZKpKxIDRWyr9PtFjIyc5g+YmOboQON7+F2IfH72Jdxt6IU5tsIXFYhPGpugiVHPjZtrRs5EfIJo/1G/j2ckmp2RxN+2iZOh3h31GuNX8nvoaLic/whfg55W8r3HwQ8NQKNA0ZgbsiYuXt3boeGRdTTmK1Z44Rqk9Vn4Uhx0uCP/v89Xmjw==|920
