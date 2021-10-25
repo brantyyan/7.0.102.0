@@ -295,27 +295,7 @@
   },
   {
     "ModuleName": "PCPage/Page1",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T11:01:42.5454169+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\导入文件夹1\\Page1.json"
-    ]
-  },
-  {
-    "ModuleName": "Pages/导入文件夹1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T11:01:54.9245994+08:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": []
+    "ModuleType": 1
   },
   {
     "ModuleName": "Table/Project",
