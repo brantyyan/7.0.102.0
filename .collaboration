@@ -97,7 +97,16 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T08:46:02.4408955+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\文件夹1\\页面1.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
