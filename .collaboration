@@ -312,6 +312,15 @@
   },
   {
     "ModuleName": "MobilePage/mobile",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T16:13:38.0123166+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\mobile.json"
+    ]
   }
 ]
