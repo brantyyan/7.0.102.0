@@ -3,36 +3,43 @@
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Data Source=xa-dd3-fSs19O19;User ID=C##OracleTest;Password=xA123456;Unicode=True</ConnectionString>
     <DataBaseType>Oracle</DataBaseType>
+    <EConnectionString>Rj55UxjxjvoPeJr+TXByHsJGXT1HYXAfDYLSGazfyRP+Dlu0Gl52oF01ru4ixfzUdhbopwzPnUmZejtvbqTYZgLeXfE23/T3TPSa+T7m1/VG/5n9wl0PtTbcjAxkgBkS</EConnectionString>
     <ID>bc9606a4-7299-4bd7-ae97-165a3259bb9f</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Data Source=xa-dd3-fs12o11;Initial Catalog=xa-dd3-branty;Persist Security Info=True;User ID=sa;Password=xA20200326</ConnectionString>
     <DataBaseType>SqlServer</DataBaseType>
+    <EConnectionString>Rj55UxjxjvoPeJr+TXByHlloHi0dnW2ITiD3aWPTcPEEamlEnEdUJ4MG5iiO6TmLEviWg0SUCX90qeaba18pEgkucB+HbtPZcpOm7ccYmdmSohBeR92jjPMkQb0Jj1ZXdvKzRBcGCgVpgkrqyabz9JDXGD4kiMYi+3kR1yFEE9o=</EConnectionString>
     <ID>e5ff0f0b-89be-44ff-a2e2-70a21ff5c8b4</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Server=xa-dd3-fs16ms8;User Id=root;Password=xA20200326;Database=brantytest1</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
+    <EConnectionString>Oa360wFjUWjcvWr5yWAIVnwf4mqhfTJuH4BSyKR3PFx4hgz5roZcZ6+nIY+5097QWfoNyuAnshbulB+8Om/Gb6g54pAF0pv8At7r+ezVIz8=</EConnectionString>
     <ID>a8dea0c4-8694-4280-a0db-589720e3c6db</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Host=xa-dd3-fgcp13d8;Username=postgres;Password=xA20200326;Database=brantytest</ConnectionString>
     <DataBaseType>PostgreSQL</DataBaseType>
+    <EConnectionString>Rt21Bzklp5Mx0Imi6AvesXNV6Nn/asykP3c3PXOdQAgntdGAFEPYv/Ck6IXbROFdBqt7ToTXm7jasKi+fTtPvwLPwDoa7stMk2NhCFYM9lM=</EConnectionString>
     <ID>28041355-aabe-4619-a77e-ab9d8584b4ef</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>server=xa-dd3-fgcp13d8;user=sysdba;password=xA20200326;schema=brantyTest</ConnectionString>
     <DataBaseType>DaMeng</DataBaseType>
+    <EConnectionString>iDA6g3bO++XBvlf8f0UOIe/L1Zle/yNx105JadDlR3N7wrJ3kKbhqqEDnXU0voOhB+2X0UZI1O9IH2E6ystDozsbkWlmPFAsxKYBNnyfkVw=</EConnectionString>
     <ID>264bbe72-c7fd-4c2c-8e0e-d1b037d7bf85</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Driver={Microsoft Access Driver (*.mdb, *.accdb)};dbq=D:\FORGUNCYBUILD\7.0.4.0\DEMO\ACCESSDATA\Forguncy_4552.accdb;defaultdir=D:\FORGUNCYBUILD\7.0.4.0\DEMO\ACCESSDATA;driverid=25;fil=MS Access;filedsn=C:\Users\brantyyan\Documents\access.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes</ConnectionString>
     <DataBaseType>Odbc</DataBaseType>
+    <EConnectionString>z/kq/3l17hz4CdikVa0cq+Lwoul0YGdngVVLH2TAtH2WFxCaZ5up2rYjLOv3FU/LI6xMxPqODyKePdqcy/U08NIKQopfd1RU7alQesRB+6JTDODK7jS2WGNt+ojV+taiNlIgU5RMkwSellYX2hl1xlV8MJW29us955yFo3PkAHXqE1cckgIAe1mPcxxGuHKDIxzqJ1LrVMP0W3l9Ab1U48XXH+L4NCfy+YD6eSy4zg1hLnGW1wL/LewFafO9Oq2eHN8kSNaGc5Kf/9XGlqLczIOxYWIQ3B8t/9my2aqeAYlAh1EKGTAKtvFihBD7RypA3IsUFR/kWvHew9vV/NhSb4ThFjU9keUeGPuUQwYpNMXcz2mHlDLfmz5ei9BjJfcbYPEcEv3AfnCSdfbVobADCLv4ppcXx+6Ab4eUg841JGwdPXY6lNzpoHEIvPypWv2SIrU3Vsib0ScmCQOTUls4Mg==</EConnectionString>
     <ID>a98aedd7-7f31-404c-a1f8-94fe89409066</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Driver={MySQL ODBC 8.0 Unicode Driver};server={xa-dd3-fs16ms8};uid=root;pwd=xA20200326;database=brantytest;port=3306</ConnectionString>
     <DataBaseType>Odbc</DataBaseType>
+    <EConnectionString>CDHCg9KM9jMy2ow7QrdlGj9cJ8VjUBJ67uRuMCsU4MUAzJXOmEfd3pa6qGVu3ZJx8j7juXhAtLGZCm7QnjaV3KXvuhnWnre4oLqbaaHAP5XXRkPmKxmhRRIXZ3B2Me6z3UAy57uwqThkz2G5m7ak3KGggglxmajUFSN1932ikaA=</EConnectionString>
     <ID>55fac581-d860-4ae5-8b19-d05bb8389cd4</ID>
   </Item>
 </DataConnectionSet>
