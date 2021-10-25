@@ -264,22 +264,6 @@
         "ListViewStyleName": "_RS_Medium2"
       }
     },
-    "22,15": {
-      "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
-        "RowIndex": 22,
-        "ColumnIndex": 15,
-        "ColumnCount": 13,
-        "RowCount": 8,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "Name": "表格3",
-        "TopCondition": null,
-        "ListViewStyleName": "_RS_Medium2"
-      }
-    },
     "23,3": {
       "BindingInfo": {
         "TableName": "表1",
@@ -1050,19 +1034,6 @@
       "22,8": 4,
       "22,9": 4,
       "22,10": 28,
-      "22,15": 27,
-      "22,16": 4,
-      "22,17": 4,
-      "22,18": 4,
-      "22,19": 4,
-      "22,20": 4,
-      "22,21": 4,
-      "22,22": 4,
-      "22,23": 4,
-      "22,24": 4,
-      "22,25": 4,
-      "22,26": 4,
-      "22,27": 8,
       "23,3": 29,
       "23,4": 30,
       "23,5": 30,
@@ -1071,12 +1042,8 @@
       "23,8": 32,
       "23,9": 32,
       "23,10": 32,
-      "23,15": 18,
-      "23,27": 19,
       "24,3": 18,
       "24,10": 19,
-      "24,15": 18,
-      "24,27": 19,
       "25,3": 33,
       "25,4": 34,
       "25,5": 34,
@@ -1084,28 +1051,7 @@
       "25,7": 34,
       "25,8": 34,
       "25,9": 34,
-      "25,10": 35,
-      "25,15": 18,
-      "25,27": 19,
-      "26,15": 18,
-      "26,27": 19,
-      "27,15": 18,
-      "27,27": 19,
-      "28,15": 18,
-      "28,27": 19,
-      "29,15": 33,
-      "29,16": 34,
-      "29,17": 34,
-      "29,18": 34,
-      "29,19": 34,
-      "29,20": 34,
-      "29,21": 34,
-      "29,22": 34,
-      "29,23": 34,
-      "29,24": 34,
-      "29,25": 34,
-      "29,26": 34,
-      "29,27": 35
+      "25,10": 35
     },
     "SheetStyle": {
       "FontFamily": 3
@@ -1146,22 +1092,11 @@
     "8,36,1,4",
     "8,40,1,6",
     "8,46,1,3",
-    "8,49,1,3",
-    "24,15,6,13"
+    "8,49,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "ShouldCheckDirty": true,
-    "IgnoreDirtyCells": [
-      {
-        "PageDirtyElementType": 1,
-        "Value": "表格1"
-      },
-      {
-        "PageDirtyElementType": 1,
-        "Value": "表格3"
-      }
-    ],
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -1172,4 +1107,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//xUlvgiu9EYaIHdb3AKMMRUMo4ivZEd0jvIgCgL2T8B52LIkzTd7STJ39UkynVyKY8cZUoyJhrnk5SPgvRNI9mlj5P3lchen+EpCgXGEoZqfSPBs9C+VlhUyiTyMzzzbsKplpxppZXGy9zRdVuthkN6iaBsuIRTxX9JetCbZS1VMaRcJBlGTZ9P7Ua8jbA94FedcueQ4rfwYMC0nI2cJH064h624o3IGGg9dimV+3LiRdXU1dZsZ4I4/Mlv3sPsn+gA99KEhHBMxsyO+aptLOL8HfDmMZOGLAXKdSFq8hKVI5g5cqBOarZt4J/UkBDuZbGbgK2+cIwHb6x/zZx2lF1yrMnxbjsmQm2Kd92us12eD6wsJPWgqYXwMoV+3ZMjP8zMjyXgZMu2v02hznoBEgZd6E8kK+1PIx6i2daEUwUDivtRFfvMlcSf2/pHbLUHnfr+78+PSG8EazqmAm8IU4hoe9PyZSLrxzbmc5dQRrb3bwIuukDywra1BFvwzTScd1L9bZIL2F/KHvpqxHxzSPdP7cnhR7rBhsJTshHDjqnzXQQYFw4OcMseU9+ZIWP2uPv/YxPA7Qo230CELd0XO2bzIHBJ1FN9o+fpRbRs55jCuv1eMdGaD5UfxQ3aRzgaw85pObIBX/WRdCUHssMTHjDL2i6XbOdwxO4nkgD40csYYoqb4Pxno5pPD8t+W6nJlJJGm/ctWkgIyYQOr/r8LN8V54J9pAGoQVYOk5GbSWbwhQk5sS+5I/rtKB2jdYjudkf3YyajFk20hhCxcsCcLIox23CtGgazA6u2gEHUPjrGcWUQMqL1ByXG+1bNbkinqQ5NRsZkshfoL7izbRNAQNvc2NkZuZqhCPPVxxbttUMxDl3mxtHtIez2TNrgJfhMJgnzeYDLmF2cp8MWhcn16bQg==|920
+}//FHBGDNqHxG0RTXdGBYHkN+28OwSNewRqK0UQVy7UdyjQZLRfbA9QpU+6A1bshxZwKLt7oqpUdP2bMIKqm5a1DMLby6D7WRubhuF5zcxG4n7parJe6jKG2KHGnvZOFfj7W7IfM/29MnzLel5lQck6Wg3WC5sUa1nMIrlT+CL1Z5jmU5zBLAtfIZom3Gbvsg6tmax/TNiOKW01PAiXo7DNDzoN9mEnAbL21rK9f+AFGdL9EK1RfsK9vhAupdz/6vT2idDt3fngQXu6yoihWYDbAK6ox0u6aSoJU6NULvVyTlJpJ+FYkJMuriLitR/Q0rqwH8+ozze0k0CFe4gg5Ynxxpo67z9pSRqlXQV+u2vH0rM6dQNINGFeWrp1J7cGkygUP3V3UrtiS7HI7gdQyMvZPeDbbT83Tp2K08FobUvHpmswFNJvYGOOUwNZ3X7F7QoPwx0CVO/lFYqfoYl8ESG4xu6EJskMUc8alGGDv7rxRfsKM7dK+LLCZSrpj3qezpIO01hIjh5JUgg0NhoENVw/MUXBjUi2Qc6m2/yAg/US8VkfpaggK3wkeW45dkLa+bbiIZwGSZW4tsb3QKTFgCZWEDIulejieaD6G0ocUhApMGiYp8TZHzcB/dpBl9Ky0QvFf0xGCIDqxquEDQDkhfaq/giHyD2XGSNIdGEZd0OQxE+xB0pJLurAgS4fr74VQXQjIRggxwcowS/pfMFpvWuo/15hJtJWzftmmS9VUtpsm8Z3JzPUnVlly6CSipqYL0MlkGLN1aKSL+nnJeDfjIvNF6j8RTIWKAim5q8Up1h9RobOf4I6Uo7nPktm2D+YL/P/du34KdMU2iNjMZMt+5KoQCt6K2CK32XTmExQsCDYmuJuoMBqDIA84t6mgOFxLhi/fbjX+xiEqveSKfFbCy0uQQ==|920

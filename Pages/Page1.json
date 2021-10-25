@@ -5,6 +5,12 @@
   "Cols": {
     "Count": 60
   },
+  "Values": {
+    "6,39": "a",
+    "13,3": "表1_列表页面",
+    "13,17": "表1_详情页面",
+    "16,3": "表1_详情页面"
+  },
   "AttachInfos": {
     "3,3": {
       "ListViewInfo": {
@@ -13,7 +19,7 @@
         "RowIndex": 3,
         "ColumnIndex": 3,
         "ColumnCount": 31,
-        "RowCount": 21,
+        "RowCount": 9,
         "IsRowHeaderVisible": true,
         "IsRowHeaderCheckBoxVisible": true,
         "AllowEditInListview": true,
@@ -51,47 +57,63 @@
         "ColumnName": "Pro_Date"
       }
     },
-    "26,16": {
+    "6,39": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "a"
+      }
+    },
+    "13,3": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ImportExcelToListViewCommand, ServerDesignerCommon",
-            "ListViewName": "ListView1",
-            "ImportExcelToListViewColumnInfos": [
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=Page1!J5"
-                },
-                "ColumnName": "Pro_Name"
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=Page1!Q5"
-                },
-                "ColumnName": "Pro_Staus"
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=Page1!X5"
-                },
-                "ColumnName": "Pro_Date"
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=Page1!F5"
-                },
-                "ColumnName": "Pro_ID"
-              }
-            ],
-            "SuccessMessage": "Excel文件导入成功！"
+            "$type": "TabManager.TabOpenCommand, TabManager",
+            "PageName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Page1!D14"
+            },
+            "UrlTitle": "",
+            "UsedMode": 1,
+            "PassedValueList": [
+              {}
+            ]
           }
         ],
+        "Text": "表1_列表页面",
         "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "13,17": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "TabManager.TabOpenCommand, TabManager",
+            "PageName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Page1!R14"
+            },
+            "UrlTitle": "",
+            "UsedMode": 1,
+            "PassedValueList": [
+              {}
+            ]
+          }
+        ],
+        "Text": "表1_详情页面",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "16,3": {
+      "CellType": {
+        "$type": "TabManager.TabCellType, TabManager"
       }
     }
   },
@@ -128,28 +150,45 @@
         "BorderRight": 0
       },
       {
+        "Formatter": 1
+      },
+      {
         "BorderBottom": 0,
         "BorderTop": null,
         "BorderLeft": 0,
         "BorderRight": null
       },
       {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderBottom": 0
       },
       {
         "BorderBottom": 0,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
       "Strs": [
         "DarkGray",
-        "Body"
+        "@",
+        "Body",
+        "[AUTO]General"
       ],
       "Borders": [
         {
@@ -195,6 +234,7 @@
       "5,33": 4,
       "6,3": 3,
       "6,33": 4,
+      "6,39": 5,
       "7,3": 3,
       "7,33": 4,
       "8,3": 3,
@@ -203,64 +243,88 @@
       "9,33": 4,
       "10,3": 3,
       "10,33": 4,
-      "11,3": 3,
-      "11,33": 4,
-      "12,3": 3,
-      "12,33": 4,
-      "13,3": 3,
-      "13,33": 4,
-      "14,3": 3,
-      "14,33": 4,
-      "15,3": 3,
-      "15,33": 4,
-      "16,3": 3,
-      "16,33": 4,
-      "17,3": 3,
-      "17,33": 4,
-      "18,3": 3,
-      "18,33": 4,
-      "19,3": 3,
-      "19,33": 4,
-      "20,3": 3,
-      "20,33": 4,
-      "21,3": 3,
-      "21,33": 4,
-      "22,3": 3,
-      "22,33": 4,
-      "23,3": 5,
-      "23,4": 6,
-      "23,5": 6,
-      "23,6": 6,
-      "23,7": 6,
-      "23,8": 6,
-      "23,9": 6,
-      "23,10": 6,
-      "23,11": 6,
-      "23,12": 6,
-      "23,13": 6,
-      "23,14": 6,
-      "23,15": 6,
-      "23,16": 6,
-      "23,17": 6,
-      "23,18": 6,
-      "23,19": 6,
-      "23,20": 6,
-      "23,21": 6,
-      "23,22": 6,
-      "23,23": 6,
-      "23,24": 6,
-      "23,25": 6,
-      "23,26": 6,
-      "23,27": 6,
-      "23,28": 6,
-      "23,29": 6,
-      "23,30": 6,
-      "23,31": 6,
-      "23,32": 6,
-      "23,33": 7
+      "11,3": 6,
+      "11,4": 7,
+      "11,5": 7,
+      "11,6": 7,
+      "11,7": 7,
+      "11,8": 7,
+      "11,9": 7,
+      "11,10": 7,
+      "11,11": 7,
+      "11,12": 7,
+      "11,13": 7,
+      "11,14": 7,
+      "11,15": 7,
+      "11,16": 7,
+      "11,17": 7,
+      "11,18": 7,
+      "11,19": 7,
+      "11,20": 7,
+      "11,21": 7,
+      "11,22": 7,
+      "11,23": 7,
+      "11,24": 7,
+      "11,25": 7,
+      "11,26": 7,
+      "11,27": 7,
+      "11,28": 7,
+      "11,29": 7,
+      "11,30": 7,
+      "11,31": 7,
+      "11,32": 7,
+      "11,33": 8,
+      "13,3": 9,
+      "13,4": 9,
+      "13,5": 9,
+      "13,6": 9,
+      "13,7": 9,
+      "13,8": 9,
+      "13,9": 9,
+      "13,10": 9,
+      "13,11": 9,
+      "13,12": 9,
+      "13,13": 9,
+      "13,14": 9,
+      "13,17": 10,
+      "13,18": 9,
+      "13,19": 9,
+      "13,20": 9,
+      "13,21": 9,
+      "13,22": 9,
+      "13,23": 9,
+      "13,24": 9,
+      "13,25": 9,
+      "13,26": 9,
+      "13,27": 9,
+      "13,28": 9,
+      "14,3": 9,
+      "14,4": 9,
+      "14,5": 9,
+      "14,6": 9,
+      "14,7": 9,
+      "14,8": 9,
+      "14,9": 9,
+      "14,10": 9,
+      "14,11": 9,
+      "14,12": 9,
+      "14,13": 9,
+      "14,14": 9,
+      "14,17": 9,
+      "14,18": 9,
+      "14,19": 9,
+      "14,20": 9,
+      "14,21": 9,
+      "14,22": 9,
+      "14,23": 9,
+      "14,24": 9,
+      "14,25": 9,
+      "14,26": 9,
+      "14,27": 9,
+      "14,28": 9
     },
     "SheetStyle": {
-      "FontFamily": 1,
+      "FontFamily": 2,
       "BorderBottom": null,
       "BorderTop": null,
       "BorderLeft": null,
@@ -272,15 +336,19 @@
     "4,9,1,7",
     "4,16,1,7",
     "4,23,1,11",
-    "5,3,19,31",
+    "5,3,7,31",
+    "13,3,2,12",
+    "13,17,2,12",
     "3,5,1,4",
     "3,9,1,7",
     "3,16,1,7",
     "3,23,1,11",
-    "26,16,2,12"
+    "6,39,3,10",
+    "16,3,24,56"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -291,4 +359,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//DOvpoud1+QqcN4Z9wWntSjzwT45XAGjYf6fDKHTpUc485RpmAwE80jQLRF+4DB5A9KSaTaSolx7l9Rtw2M/BkR2jhIjJEm4xCbtZ4tqIDFmBDd1DKW6aiHDq9AdEZWwA2DzPU5JpBdT4rBlFmVF2LA7evFQzYmXbZxYDjucsslEKqfXqnWyyprLd7kzM8ZjCHBIgHqbxDYot5b25AyZ6+rE09lr/ILfzf65VABMX5lYx2XHkTIigqr0JJ0l/5b7l92Wf0NpUHR3h9Edgi85Ci6T2FK0FYjtv6mnMdELdjHTgeGoskFD+d5OanjXNwEMRwvASPcdEoLHrWJSmm42e2w2qzcTm9GcEr5fUIpRWOKE923ca6VhyPWedLQFN5c0mJBQnGSGXA1HUzNeNXngXiEEwLo0+3a0FkKXUKrRQ5bOTrZgWeGiNBiRD63N/8uzT4vBLWNSiu6HnTXd0Mq+JkjsYljM5ncw3KCk9yPU8Kc/gdefHmSdfiMd+AxTNSmfeckLpZwJ/WHq443acjxPMbDJQSm555o5DyRAmiSaDRi4q7x71JnyHwbNaWM5IWvp18y0wvWE8SYnojaF3MX/WVh1ofGfbCBN0PGEg6fr2u/M1vK5p+8b99hZlDhxvFow59gfobVhdrouocWBd4Zsg8kRQadAMmZug4KFCvhVNUnWJZLK3HJHdrMVFm6DO3Yy3ZuQgeSJJV7VQja2UkJnf8CJ2ZigFabVl1BLyomnsOCB+G4cpI8FohCr9rz+mt88zshZBJqr1UdxS8tUpqpWG/IeOKEKWagEpK/Kl+5thAo/St+50JSMqahtTW0pUE8JnS7ywZvNdDNy/G3q9Nb82HeFCO5aDrl5mjdhu0CcJXWpgbc3wjqfDnm2ItUn/I78hvDcG6+TvXBJYYkBZPBBpKA==|920
+}//Rl2iBelCrDNtC2T4RQwR9HTFiR3m6EKrlcggWU5ia4LZtIF9PHfHatmfOTKOlohrdqY8yLr6ndDj1MqZW+lNSxWbrToQ97HsR7hda2fryuc7NEA7GnaRU2ALA7dfpFS6zsj0iBWOR+c+QztVhiThQ/krDF98dP2C9SZ1ycdt/aYPLJFo01eGsKYsXLqe3S4i8zgzyEMnRawiYySjKYFlqZTCe5fQBq+pkTo7l+zjMmX03WhC04iKlZJEMljVnVqyukolHyR+yTj+4utq5RFTks+TBPob0TJHRy1DFQ0HSUnjp9QsXrDfnqmbit++lJf7aGQW8MOzKzWQRIrKfJU5N/ccD+GNkr5d1VeT272w++yMfpZZpQlZ7z17fOUFUOg2t2CCs7odSDBX+p50qTGslZQ2PjB/RejBi0U40wLVb+UYbmrBucfbUlmZ/BkYFJWKhv75rqiy5mvMAffevcWj16L0Yi0e8Nt1dQa7iph95QFljcMWnCjrCFDVj+Td4X5UX1o2DWo62lHS4AxGf3589XHt6wmJwnLBh14Bh8rwvY5gXKAAdo7GLAkZJM38e11eYpaGUlU76XSukf5Smss6MylRsZdmovh9h9YVsQobh0oRXEAnQTgM+XYVJYUVUNlI+fcWcXSUQuu4cT5mzAUMmltvWztcyqxp7bD0t7mUkT8U7Ljb/efGgdg0GHZvSz0NpSBjS1xRRPgg/3my+6EpHBFM/YpWiN+EJkx8R857o3HMjdyOvkT2zwfhDqfiF4LEVpMCpITE49uR37h836SXjMP28IC6iHTPOEfTm23IP02RtSt2xo413IebaJzlfI3bhI0iJJjDKw7K7U+AFknKIe2qZ/T1tdYhpFMmuamAeN8jWPVhrBlVVca4Kk3TnRcXcdR1AMK0CkOo4dupWk9KcA==|920
