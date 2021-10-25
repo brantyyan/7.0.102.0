@@ -122,7 +122,17 @@
   },
   {
     "ModuleName": "ImageSelector",
-    "ModuleType": 10
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T12:11:01.9453321+08:00",
+    "ModuleType": 10,
+    "ToRemoveFiles": [
+      "image\\fgc_logo_dark.png",
+      "image\\fgc_logo_light.png"
+    ]
   },
   {
     "ModuleName": "UserService",
