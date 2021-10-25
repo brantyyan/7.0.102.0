@@ -133,7 +133,16 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "ModuleType": 25
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "ModuleType": 25,
+    "ToRemoveFiles": [
+      "DataConnectionSet"
+    ]
   },
   {
     "ModuleName": "Upload",
@@ -141,7 +150,17 @@
   },
   {
     "ModuleName": "Table/表1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\表1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -170,17 +189,47 @@
   },
   {
     "ModuleName": "Table/Employee",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Employee.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DifferentTypes",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\DifferentTypes.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Table1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Table1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -230,7 +279,17 @@
   },
   {
     "ModuleName": "TableView/视图2",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\视图2.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -292,5 +351,45 @@
   {
     "ModuleName": "ServerCommand/SetParameter command",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "PCPage/Page1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Table/Project",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Tables/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "ModuleType": 22
   }
 ]
