@@ -146,29 +146,11 @@
   },
   {
     "ModuleName": "PCPage/表1_详情页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T16:27:37.4617774+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\文件夹1\\表1_详情页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/表1_列表页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T16:12:59.7750121+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\文件夹1\\表1_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Employee_List",
@@ -321,35 +303,14 @@
   },
   {
     "ModuleName": "MobilePage/mobile",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T16:13:38.0123166+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\mobile.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "MobilePage/手机_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T16:14:40.5931344+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "MobilePage/手机_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T16:14:55.3060565+08:00",
     "ModuleType": 2
   }
 ]
