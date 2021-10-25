@@ -247,44 +247,134 @@
   },
   {
     "ModuleName": "Table/sqlcommand_销售大区",
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\sqlcommand_销售大区.json"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Forguncy_4552",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\Forguncy_4552.json"
+    ]
   },
   {
     "ModuleName": "Table/ars_看板",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\ars_看板.json"
+    ]
   },
   {
     "ModuleName": "Table/ColumnType",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\ColumnType.json"
+    ]
   },
   {
     "ModuleName": "Table/aaaaa",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\aaaaa.json"
+    ]
   },
   {
     "ModuleName": "Table/SQLCommand_Text",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\SQLCommand_Text.json"
+    ]
   },
   {
     "ModuleName": "TableView/视图1",
-    "ModuleType": 23
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\视图1.json"
+    ]
   },
   {
     "ModuleName": "Table/人员",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\人员.json"
+    ]
   },
   {
     "ModuleName": "Table/aaa",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\aaa.json"
+    ]
   },
   {
     "ModuleName": "TableView/外联视图",
-    "ModuleType": 23
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\外联视图.json"
+    ]
   },
   {
     "ModuleName": "TableView/视图2",
@@ -311,7 +401,14 @@
   },
   {
     "ModuleName": "Tables/外连表",
-    "ModuleType": 22
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Pages/文件夹1",
@@ -344,5 +441,15 @@
   {
     "ModuleName": "PageReport/页面1",
     "ModuleType": 17
+  },
+  {
+    "ModuleName": "Tables/@_￥_……",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:34:10.7617668+08:00",
+    "ModuleType": 22
   }
 ]
