@@ -146,7 +146,17 @@
   },
   {
     "ModuleName": "Upload",
-    "ModuleType": 26
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T11:00:28.7447894+08:00",
+    "ModuleType": 26,
+    "ToRemoveFiles": [
+      "Upload\\746cd898-b666-4418-af44-b48a024fecc2_5882b2b7d0a20cf46d6fc41f70094b36adaf9976.gif",
+      "Upload\\c59aa3bc-2d62-4fc9-b990-55dbb31534dd_check.png"
+    ]
   },
   {
     "ModuleName": "Table/表1",
@@ -155,7 +165,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "LockDateTime": "2021-10-25T11:00:28.7437889+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\表1.json",
@@ -194,7 +204,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "LockDateTime": "2021-10-25T11:00:28.7437889+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Employee.json",
@@ -209,7 +219,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "LockDateTime": "2021-10-25T11:00:28.7437889+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DifferentTypes.json",
@@ -224,7 +234,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "LockDateTime": "2021-10-25T11:00:28.7437889+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Table1.json",
@@ -284,7 +294,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T10:56:06.1251049+08:00",
+    "LockDateTime": "2021-10-25T11:00:28.7437889+08:00",
     "ModuleType": 23,
     "ToRemoveFiles": [
       "Tables\\视图2.json",
