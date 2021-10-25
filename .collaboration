@@ -206,7 +206,16 @@
   },
   {
     "ModuleName": "Table/aaaaa",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T08:42:31.5408618+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\aaaaa.json"
+    ]
   },
   {
     "ModuleName": "Table/SQLCommand_Text",
@@ -222,7 +231,16 @@
   },
   {
     "ModuleName": "Table/aaa",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T08:42:31.5408618+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\aaa.json"
+    ]
   },
   {
     "ModuleName": "TableView/外联视图",
