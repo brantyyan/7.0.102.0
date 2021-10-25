@@ -102,7 +102,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T11:31:00.8352936+08:00",
+    "LockDateTime": "2021-10-25T12:12:18.826429+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\页面1.json"
@@ -118,7 +118,20 @@
   },
   {
     "ModuleName": "Theme",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T12:12:18.826429+08:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig",
+      "C:\\Users\\brantyyan\\Documents\\ForguncyCollaboration\\7.0.102.0-master\\Reports\\DefaultTheme.rdlx-theme"
+    ]
   },
   {
     "ModuleName": "ImageSelector",
