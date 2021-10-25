@@ -146,7 +146,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T08:44:07.7454683+08:00",
+    "LockDateTime": "2021-10-25T08:44:14.7480292+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\表1.json",
@@ -185,7 +185,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T08:44:07.7454683+08:00",
+    "LockDateTime": "2021-10-25T08:44:14.7480292+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Employee.json",
@@ -200,7 +200,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T08:44:07.7454683+08:00",
+    "LockDateTime": "2021-10-25T08:44:14.7480292+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DifferentTypes.json",
@@ -215,7 +215,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T08:44:07.7454683+08:00",
+    "LockDateTime": "2021-10-25T08:44:14.7480292+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Table1.json",
@@ -275,7 +275,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T08:44:07.7454683+08:00",
+    "LockDateTime": "2021-10-25T08:44:14.7480292+08:00",
     "ModuleType": 23,
     "ToRemoveFiles": [
       "Tables\\视图2.json",
@@ -294,26 +294,5 @@
   {
     "ModuleName": "Tables/外连表",
     "ModuleType": 22
-  },
-  {
-    "ModuleName": "Table/表2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T08:43:49.6743371+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/表3",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T08:44:07.7454683+08:00",
-    "ModuleType": 7,
-    "ExclusiveType": 0
   }
 ]
