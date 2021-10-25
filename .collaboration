@@ -322,5 +322,15 @@
     "ToRemoveFiles": [
       "Pages\\mobile.json"
     ]
+  },
+  {
+    "ModuleName": "MobilePage/手机_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T16:14:40.5931344+08:00",
+    "ModuleType": 2
   }
 ]
