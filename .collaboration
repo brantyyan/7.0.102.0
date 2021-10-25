@@ -313,7 +313,16 @@
   },
   {
     "ModuleName": "PCPage/Page1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T17:23:46.8336158+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Page1.json"
+    ]
   },
   {
     "ModuleName": "Table/Project",
