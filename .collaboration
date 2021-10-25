@@ -275,7 +275,17 @@
   },
   {
     "ModuleName": "PageReport/页面1",
-    "ModuleType": 17
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T09:37:55.8463436+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\页面1.json",
+      "Reports\\页面1.rdlx"
+    ]
   },
   {
     "ModuleName": "PageReport/报表1",
@@ -284,7 +294,7 @@
       "UserName": "Yan Lin",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-10-25T09:37:42.1771195+08:00",
+    "LockDateTime": "2021-10-25T09:37:55.8463436+08:00",
     "ModuleType": 17
   },
   {
