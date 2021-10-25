@@ -146,11 +146,29 @@
   },
   {
     "ModuleName": "PCPage/表1_详情页面",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T08:59:34.2365464+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\文件夹1\\表1_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/表1_列表页面",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T08:59:34.2365464+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\文件夹1\\表1_列表页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/Employee_List",
