@@ -167,10 +167,10 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=页面1!AN2"
                 },
-                "Id": "ce816076-6f46-49a8-a2b0-eef3493390c4"
+                "Id": "1732cddc-5350-425b-9d66-47c653de87c2"
               }
             },
-            "ID": "291f363f3c5d479e81a26fc052081547"
+            "ID": "cbade51bb4b34b698ca0ccc47aea2af3"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -228,6 +228,44 @@
       "BindingInfo": {
         "TableName": "表1",
         "ColumnName": "整数"
+      }
+    },
+    "22,37": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "人员",
+        "RowIndex": 22,
+        "ColumnIndex": 37,
+        "ColumnCount": 20,
+        "RowCount": 11,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "23,37": {
+      "BindingInfo": {
+        "TableName": "人员",
+        "ColumnName": "ID"
+      }
+    },
+    "23,39": {
+      "BindingInfo": {
+        "TableName": "人员",
+        "ColumnName": "姓名"
+      }
+    },
+    "23,44": {
+      "BindingInfo": {
+        "TableName": "人员",
+        "ColumnName": "入职日期"
       }
     }
   },
@@ -353,7 +391,65 @@
       "19,52": 8,
       "19,53": 8,
       "19,54": 8,
-      "19,55": 9
+      "19,55": 9,
+      "22,37": 2,
+      "22,38": 3,
+      "22,39": 3,
+      "22,40": 3,
+      "22,41": 3,
+      "22,42": 3,
+      "22,43": 3,
+      "22,44": 3,
+      "22,45": 3,
+      "22,46": 3,
+      "22,47": 3,
+      "22,48": 3,
+      "22,49": 3,
+      "22,50": 3,
+      "22,51": 3,
+      "22,52": 3,
+      "22,53": 3,
+      "22,54": 3,
+      "22,55": 3,
+      "22,56": 4,
+      "23,37": 5,
+      "23,56": 6,
+      "24,37": 5,
+      "24,56": 6,
+      "25,37": 5,
+      "25,56": 6,
+      "26,37": 5,
+      "26,56": 6,
+      "27,37": 5,
+      "27,56": 6,
+      "28,37": 5,
+      "28,56": 6,
+      "29,37": 5,
+      "29,56": 6,
+      "30,37": 5,
+      "30,56": 6,
+      "31,37": 5,
+      "31,56": 6,
+      "32,37": 7,
+      "32,38": 8,
+      "32,39": 8,
+      "32,40": 8,
+      "32,41": 8,
+      "32,42": 8,
+      "32,43": 8,
+      "32,44": 8,
+      "32,45": 8,
+      "32,46": 8,
+      "32,47": 8,
+      "32,48": 8,
+      "32,49": 8,
+      "32,50": 8,
+      "32,51": 8,
+      "32,52": 8,
+      "32,53": 8,
+      "32,54": 8,
+      "32,55": 8,
+      "32,56": 9
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -372,7 +468,14 @@
     "7,48,2,9",
     "11,37,1,2",
     "11,39,1,4",
-    "11,43,1,4"
+    "11,43,1,4",
+    "24,37,9,20",
+    "23,37,1,2",
+    "22,37,1,2",
+    "23,39,1,5",
+    "22,39,1,5",
+    "23,44,1,5",
+    "22,44,1,5"
   ],
   "Charts": [
     {
@@ -725,4 +828,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//P+OL64jrmRg8Z1EnJlIvAYx8aFJ4w7GjwwzT9t2aC/vLtuZOX8636vGKyomc0agsjDiuSL7/hcEyzC5MhWIGnO7BJYn8yd8aPxTaItWoo38yqjYUG+9o3qccAyt8RLxfq3aWR7Ps4UYmThcS9sXBHMI9eWBo0vvXYv2sJK8BoZtEQHj559cvsDOy7GIgvhxtXI8/uML8m5aBDJWP5wS2OGnTKgBjO0kXdY7cE2fhML4vU9IqofNcOzxmUuENdgaCn4Jd8Et05g+PDTIIn9yjrXSOkTcMTI5uLCUaYTFMBd/c8kVU1qS77ryuu8YRH0XMBGUdty42Dzk2u8ZpxE4NVtHftQ7x6vF/Xjt8ueiJSrUWWJwCw7GTd9TGt1FPwoKwR9cn8miHE7Up+iKP/njAAoK+iraWhherhwC2UYOKpmgRVEFsSPWrs4q4+w+uvsbzFgedtNIFZQWQbOyc5iVPeNPu9L3Bh3QK6qt1QQ4SevfJixNzDQBG1DygVagGtisXDEePEFTtfQlogisg1ldiSv3mH5XozzrPnSS83iO+xK3DnDdCTjf4y+e18hASdPWunGmSZ8Bjrqydh2yHkLywG15/+P8gsPQW5QUSm+5zh2RuJBY0OgcSmsqrKARft+l0n9VwSqgEOpmVwuhF3jSNjS5wdNccT6lbBlR1Pg4nY7Rtv8A8+ZtLhN2HXC0imsjrzKAMF+hu1PSBeKDxUE1gTiSl8c58ARhcj2j7+h+GJKSdbhDKplxNsogKkkZlW8n2fPZns6jp4gZZlnzGHpRcg2L9mPO+bKlEN1y7tRTqNvbce48TxTaIVmSLeEeqG68U2UlkKBlwjpI0DJ+X0I/2qyVjtli78z4Bu7j76CXuP2BFNMie/QgAknw3/GZmMK3WUfkD6/3doyN+V5orEMeNKQ==|920
+}//23fAvGQ2ysk8dI6GFaHtROCBW/AEbNMPoaCOkE+SdDKDlLAblQto8o/0O9h7ixZCjPMGqnuFXXv18lRDpQydqn8nDlmt/GUxFgO1XiByvRyx1wf1iAhv5iV/WyIkWdygKF9PfLNaAvLU3bjENbzlHsu87UdsBkRZnBw3ceQOMyW9om2ijosefKoyyzF2gInR6zYW/ACKAkxfsB4duRscZF2K77qu0Yws2Cmtq1EcfqMo595KJ6aIAnW6M5vuysqxP9KssYkpBql9bA5Bjv9ngDZq7XuAYs+PIAfopMvWgCyUI5/Iiz/WV004b5IUtG4/jMM/iov4TkYm2u7OeITB1uG+B0vrclXM2uFwuaTk+MlEubhJXITr86JpijNncBMmlKY7GilmOyOgqJq5N8S/uvW8Uvvlfrpx83BsyGb+L9fh4cDVLQx6RBnAZ1LyvuSYRUwoc+qualW/GhfJrLaqCyfgRqD8TKac3mVtThBDe0yrNxo+YfQLUDs0jo6QaIhRspJoLT4CTwAEpTAEljrySsyvDl5nnuWOlXkvNoRQaR1VVRPE+lG7ehyqiEAifgdJLsb9QsW72KEqruTV4IrpWrCUfIy22+1XRlzqwKGnfmtx5zTZnm6PRkqhsgj7gNqLDE1T/s3mx037ymAjvApqdQs06iV671+/oJ+fvgDue9V0IrEUS7lTgnLZ4CwqW46gp68iiVBnlYfKTRI6qrkcyW9/XFNXbZ37fYT94lZgAhunXPxGjcVpkGt9MGg1zW4t/lv4krEh7Cf9E6kbboQi133mhoSvLbcU/k482SAuwhfjjV/AAIyMKbjH7FoWOothH4tPWq6LWe4SuoM6zPnIP2NM7+9iSy7jcodEJpXThEPXUXNrP/Vi+WfpRpw4iM+Kx+2eiUuCCDfI3RGtMNcqpg==|920
