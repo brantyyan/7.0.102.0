@@ -288,5 +288,15 @@
   {
     "ModuleName": "Tables/外连表/文件夹1",
     "ModuleType": 22
+  },
+  {
+    "ModuleName": "ServerCommand/SetParameter command",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-25T10:00:22.6070559+08:00",
+    "ModuleType": 15
   }
 ]
