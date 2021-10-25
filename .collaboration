@@ -275,12 +275,6 @@
   },
   {
     "ModuleName": "PageReport/页面1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-25T08:55:13.8915045+08:00",
     "ModuleType": 17
   }
 ]
