@@ -189,16 +189,7 @@
   },
   {
     "ModuleName": "Table/sqlcommand_销售大区",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:46:42.878083+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\外连表\\文件夹1\\sqlcommand_销售大区.json"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -211,42 +202,15 @@
   },
   {
     "ModuleName": "Table/ColumnType",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:50:54.3430911+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\外连表\\文件夹1\\ColumnType.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/aaaaa",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:48:29.9573444+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\外连表\\文件夹1\\aaaaa.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/SQLCommand_Text",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:51:18.8147398+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\外连表\\文件夹1\\SQLCommand_Text.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/视图1",
@@ -254,29 +218,11 @@
   },
   {
     "ModuleName": "Table/人员",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:45:39.5233069+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\外连表\\人员.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/aaa",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:47:55.1331141+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\外连表\\文件夹1\\aaa.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/外联视图",
@@ -390,12 +336,6 @@
   },
   {
     "ModuleName": "Table/AddInDesigner",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:53:29.793708+08:00",
     "ModuleType": 7
   }
 ]
