@@ -60,19 +60,23 @@
   "Values": {
     "3,6": "ID:",
     "5,6": "文本:",
+    "5,32": "aaa",
     "7,6": "整数:",
     "9,6": "小数:",
     "11,6": "日期:",
     "13,6": "时间:",
     "15,6": "是_否:",
     "15,28": "close",
+    "15,38": "更改绑定值",
+    "15,48": "忽略页面未提交数据",
     "17,6": "用户:",
     "19,6": "图片:",
     "26,6": "附件:",
     "33,16": "取消"
   },
   "Formulas": {
-    "9,32": "number*O10"
+    "9,32": "number*O10",
+    "7,40": "ODATA(\"表1?$select=整数&$filter=文本 eq \"&IF(ISBLANK(O6),\"null\",\"'\"&O6&\"'\"))"
   },
   "AttachInfos": {
     "3,14": {
@@ -104,7 +108,8 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "aaa"
       }
     },
     "7,14": {
@@ -115,6 +120,17 @@
       "BindingInfo": {
         "TableName": "表1",
         "ColumnName": "整数"
+      }
+    },
+    "7,40": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
     "9,14": {
@@ -178,6 +194,43 @@
           }
         ],
         "Text": "close",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "15,38": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "表1",
+            "ShowConfirm": false,
+            "CheckDataValidation": false,
+            "ConfirmText": "您确定要更新这行记录吗？",
+            "UpdateValues": [
+              {
+                "ColumnName": "文本1",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=表1_详情页面!AG6"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "更改绑定值",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "15,48": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.IgnorePageDirtyCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "忽略页面未提交数据",
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
@@ -331,6 +384,7 @@
       "5,14": 1,
       "5,32": 1,
       "7,6": 0,
+      "7,40": 1,
       "9,6": 0,
       "9,32": 1,
       "11,6": 0,
@@ -361,10 +415,14 @@
     "5,14,1,6",
     "19,14,6,6",
     "19,23,14,34",
-    "5,32,1,6"
+    "15,38,1,7",
+    "5,32,1,6",
+    "7,40,1,6",
+    "15,48,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页1",
     "MobilePageName": "手机_列表页面",
     "ShouldCheckDirty": true,
     "PageLoadedCommandList": [
@@ -378,7 +436,8 @@
             },
             "Value": "123"
           }
-        ]
+        ],
+        "Disabled": true
       }
     ],
     "AuthorizeInfo": {
@@ -397,4 +456,4 @@
       "Formula": "表1_详情页面!$O$8"
     }
   ]
-}//tSyfbGJv+3GQ3rLSTHfWq1rYL/7NpO9ULQdKrnHx2DINj3eXHzxLK9yEbCAgJ60KsMePgaTUd1PJcaOxjJQtyXhwjVfXnfywHdLcogFd3xGiaFDW7M3g5EY+YeWK8ROhG794Z89aDBJpjWsibpSeT2mDOyUp6Unx/rTF0ZuUbWMWsK45HGdvnIhzgy6hIVH9F0Led4v2VVPwqO5HHjesezxRDqqrGkO4tyXgfytblhUkZxwcAbfSOVDqDq2j0g/lKT+8b8TYS+o+JQ/xP56zs2kdY8NiUqIWwd1bCkyIv/oWURIt0d2fRxQWdY702YYQZBZibQhj4aCQSwvueArzD8x9wv/VY9jnLtgwgxfQq9TJRYU1XLnRa1XvZPkcNpSyO+b72MbmDObLmr3cP8Y9GgylN7blZhoOtwzZoukojJR/egRmqTD0sirWF9SPXVow2uBGkierAL6dXezP4sTtRdOelKZe7pB6TJZbJgGBwn0M6Zh6Fj1cLlcVY0QTJTmSC8/GGzgDu3npFTWaWTPE3eXvuENNC4K0ZZwQ9tMqVex+VPUGFlmQD6pY8ydd9pm3v5YRTnsaRdC7Idd+tuhr45QbtzFAlRXHi/wdGyYwnEK7jZrBd+kH9Vlb4ut54ZhJBIWn1B1oJkYkqQBe9pWMsqRdqqylwp2pY4izYnjl1CQAxBBD+VQY5fQM6wIYw60yNZqMqt5m15U0WiKoYaitSFsl5PuXJ3c2+t6h0nbxmThKxvAm0WdrYayH0mWbrLV6qRsBNrgsjDfcas2ZOMUsLjzisRG1A592qQIZ4sk8v/Qyib2k3XNXSuDy2JR9q5IMD7yvMNHApqFgqX/W1YoDyUreh6j6y2PWH+Dfn8LdwgyfuW93EhRgtQPBl/DgZNRYi/23VGgfPreADkHnKdB1zw==|920
+}//MFtaKMbA1Cyp7Sp05CURw77coSSbY41H2DI/bWlLxKzUEFF6ECxfT04SDLUMqUu410vXnBmXXzrcIHuNssZpjDEIwpiKcGkWkePPUG3pq6C/1K+2pLgfLFj9kGkqdpI2TlFlbw/rN6LutjgIe8DNWrfMpcGoLtQ5TNrnasCbv+s1ZuH3Nx632p2D9+q+CUaM6Z9QhQ/qmOt3HsCWn63kBklEtZm7A2HYoSDr3MwKPjJdsWhdTB2rBjiN7PMrk03+qnc3CthpKTXMhKwbagcyOurkOhkwY05wF8hhyBBH9LqjOPZNBoJV1hvhta/V2yebYYcdERjcvXGTsdjRWFYsNOvlSmw2fpS6kEouJ7wLQpfqfLV+qUj+8HyOvInNfHnGGqfYKEl3LZb5OiMc+5KSBX4ZNIe0yRcf73DTIhaLyWjucdk18AWTc6E/y5nt93qSFKzZxPjAM8/k9U4BAo6zO42v9QU76Jm26Xllz89H0Ct+sH42jk0hQU6D1IevJN6DswoY7UFwv2oCt41pw9jph8XsEht3jmJTGFPqbrjWLNKJPv/AzSh5XHiU4uvD1ybdCUrtZrR0rmLPfFkVfFEYzwUYo8RHnVbHzjIW59KJ9SPghqk3zVimc8oFdp0CTcErpQLsEMPVhwnwOmn+0IvhuJk/WcfY++GzHikSjJAYYJmfD9ac7Nraxwdd14A68CMwy3P7XG/l9NlH6qK61zWooQ/TLTML5P/nqsc1fB0HXVnwhWu9VA5WUy2Pb3L4I19QLLeYEqhYDxVMZ0t1LoaK4vrLfN52eVKUROQdHFSjsiHkvYIQ7T+z308vDhwl1r/cUD9m58pSYUamsAnE+tMEoBdaPK/vbitz3z5u0NWDhVYcdwghZTbzXafa9JCVHwxjuFlH4a3SKWEXEKmqlS8MpA==|920

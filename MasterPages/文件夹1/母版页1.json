@@ -51,6 +51,8 @@
           {
             "Text": "菜单1",
             "IconPath": "Navigation/165_home_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
             "IconColorUseItemColor": true,
             "IsOldMenuPath": false,
             "CanVisitRoleList": [
@@ -59,14 +61,34 @@
             "SubItems": [
               {
                 "Text": "菜单1_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
                 "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "表1_列表页面",
+                    "PassValues": []
+                  }
+                ],
                 "CanVisitRoleList": [
                   "FGC_Anonymous"
                 ]
               },
               {
                 "Text": "菜单1_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
                 "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "表1_详情页面",
+                    "PassValues": []
+                  }
+                ],
                 "CanVisitRoleList": [
                   "FGC_Anonymous"
                 ]
@@ -76,6 +98,8 @@
           {
             "Text": "菜单2",
             "IconPath": "Navigation/183_table_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
             "IconColorUseItemColor": true,
             "IsOldMenuPath": false,
             "CanVisitRoleList": [
@@ -84,6 +108,9 @@
             "SubItems": [
               {
                 "Text": "菜单2_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
                 "IsOldMenuPath": false,
                 "CanVisitRoleList": [
                   "FGC_Anonymous"
@@ -91,6 +118,9 @@
               },
               {
                 "Text": "菜单2_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
                 "IsOldMenuPath": false,
                 "CanVisitRoleList": [
                   "FGC_Anonymous"
@@ -101,6 +131,8 @@
           {
             "Text": "菜单3",
             "IconPath": "Chart/363_column_chart_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
             "IconColorUseItemColor": true,
             "IsOldMenuPath": false,
             "CanVisitRoleList": [
@@ -109,6 +141,9 @@
             "SubItems": [
               {
                 "Text": "菜单3_1",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
                 "IsOldMenuPath": false,
                 "CanVisitRoleList": [
                   "FGC_Anonymous"
@@ -116,6 +151,9 @@
               },
               {
                 "Text": "菜单3_2",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
                 "IsOldMenuPath": false,
                 "CanVisitRoleList": [
                   "FGC_Anonymous"
@@ -195,4 +233,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//u9cHEz0uQ2M/tZJ5p+XbTl8P3fGmHWXBkwBF0ncXM9tbTAC0CEYpbDws+U03biagR2HRtEsuEMZ30a9ygaiJWndvnuN2xitE2q9C+0Uxj3qeDKq33F4MjG62nIVkcAWpG1hVunnywVSh3xukwE2clckXQeLXf6l1hUVSGaeERnTotUG9lprYHr2E6HoA7IykiC2hfnkp4tJerbo/PSrudN6j3D4NYpAN+1oGy2ubEI049xtZM3Td6B0Dtx3/q8kr4lKiLMyPdVd9QpO0sHY0D+COwwqLt1fi8alwfpee53hCtWDu90GNxoHGKnHAT6Pt72wARk4ReS78ukBrqXY4FcPK0xTW6lPQGnGDHG/ra/k+1Qt9Psg8whRVGzH2YNOQ6bpsjFRbBrgjgxUay5TPrTIFYkyCkU0zxM0rUOvD+X6wDe1+mlfQbB2fM76L0Ocjo4rLVReUMskyd3MW3snSgAvPhAv4lAtS0Xx2Xoxv+OIah3j/9EtpbEjmRj+iSyQLxpjO5HBzdWuJMMMNLLVMtwcZzTwAl+XBDd7sxN/p6hBeZvyRVWYF8WZghiuiWBapdGx57j9Nep1ChQgrbMhTGjZRAxh1ZlDpedHJs/Why95Svl5U7MD8+82f1eutt44f0irJajycCuaL7/8SCWj1kugp+kPXc4s0UYz357aFDDCXn5j+K0zF5P312gwxn+59xVhHYeWEjQfS12vUrsxPBSBUIAUscsCa/zvjvXX5wTIdeR4IteRNI8GhzSLWI318FQDnjQAu4+MXiD+SP/QxpbP9R/y+F6ywQxVQaGbwkTJKpbnWTtu0iDKPcr4y/6a/HRhXBIfNXXaXSHwa1hjyNbbMzLBK0TSgrvEPDeqlmT3GKecL98kv8MGjGpMOtX2zP+y+1mbuYzTAb5wvtKuNkw==|920
+}//7jUZAkYXlG96Zeif5QwmG7onb5y/me9s7NFKFmarCwHN4aplpBYehrbV9yF2er0rE6zFEnc2CPTKNmgGqNBsIKZ4dJnArtUM9kaxFX7v8K6x5tVdFzQMFb1/ZuvqBBdCSAnrWUkPCT0Y/Ut3475DQEwh7+/FYbofO26Co1XMOX/DJYCy0N9hc5cJ3ZgZQlv0tWtqA+Bm1kxCXDBa14rhKqN9WhDSrhAzxaoA4YmqcLME+5mH6LCiyMYuqgh6+2xwxQkRNmCv2HvBBubt2ytP9eLVza3XrrMttWBZD+X8aZas9b8q4H5JNwRSWpBG+8Sxyf2Puwb91qiV1DlG+F4rT+kxqyALOKIODvhYOIp5tcsnL4VoQkVdOPZdBBwLCUP4jxUm/9SUzgEtoDDCwahAf+z30o7Eu/8iK4k842vfBj+9vBF45d2apslVzuakOz1wyLxUxR69VFglq6h93xMIjr8KM2b6zOlFrVixKcsMZ5cbfkMOPPRkNamCoQAREwXHvIrP3szXKtLdIea2j+nfprAg+g8bDO/wR286OHW2iFfwd1q7KiE7nla0rUSsBGUQbvguaXJytlUY9lDdz70vtFE0Nf1YZxUdqT1vILTT+OKrjspTfP3/qO1Ftsr2KEu988GhUUEOcL/FIPLklpic/l0J1MKOFQ61+GF4M9XUFVXC8sq16Xnzxqh1gKgAvt5JS2EkseWfyUglYGFEMAbwAnwglByDj8qvy0Ryg2eo9EX+2HKjo7leF9NqXxNnRvC0UGNYNHv3mH/2qL6FuoErPMJR+bpYj+PZaqF5xzJRvE+CaSdkOYMF6BHaMr66DsIS4+NpYq31cODtdybzv6f52EmbFdo4CT9vCClAyYARO/l2tYQ1OwsCCKzaqh7TuxajMydFNCvQd5QvwZ48NtrOaQ==|920

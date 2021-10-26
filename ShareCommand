@@ -1,2 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ShareCommand />
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.IgnorePageDirtyCommand" assembly="ServerDesignerCommon" />
+      <Item class="Forguncy.Model.RunJavaScriptCommand" assembly="ServerDesignerCommon">
+        <FunctionNameForGenerate>表1_列表页面__G6_命令</FunctionNameForGenerate>
+        <ID>f6f5ae879e04408bad8ba6d6c3f0b44c</ID>
+        <JavaScript>location.reload();</JavaScript>
+      </Item>
+    </Commands>
+    <ID>4244a13e-91d1-44f0-a84d-211bd6756d63</ID>
+    <Name>忽略未提交数据后刷新</Name>
+  </Item>
+</ShareCommand>
