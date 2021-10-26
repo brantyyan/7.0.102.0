@@ -327,6 +327,25 @@
   },
   {
     "ModuleName": "TableView/销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T16:24:59.3120784+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图.json"
+    ]
+  },
+  {
+    "ModuleName": "TableView/销售大区表_视图",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T16:24:59.3120784+08:00",
     "ModuleType": 23
   }
 ]
