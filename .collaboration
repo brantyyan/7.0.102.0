@@ -310,34 +310,8 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "TableView/人员表_视图",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T16:22:25.1865442+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\人员表_视图.json"
-    ]
-  },
-  {
     "ModuleName": "TableView/employee_tbl表_视图",
     "ModuleType": 23
-  },
-  {
-    "ModuleName": "TableView/销售大区表_视图",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T16:24:13.6486734+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\销售大区表_视图.json"
-    ]
   },
   {
     "ModuleName": "TableView/ColumnType_视图",
@@ -349,22 +323,10 @@
   },
   {
     "ModuleName": "TableView/人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T16:23:45.0080479+08:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "TableView/销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图销售大区表_视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T16:24:13.6486734+08:00",
     "ModuleType": 23
   }
 ]
