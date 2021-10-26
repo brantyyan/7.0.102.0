@@ -314,19 +314,6 @@
     "ModuleType": 23
   },
   {
-    "ModuleName": "TableView/人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:29:24.0122991+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图人员表_视图.json"
-    ]
-  },
-  {
     "ModuleName": "TableView/销售大区表_视图",
     "ModuleType": 23
   },
@@ -340,12 +327,6 @@
   },
   {
     "ModuleName": "TableView/人员表_视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:29:41.401322+08:00",
     "ModuleType": 23
   }
 ]
