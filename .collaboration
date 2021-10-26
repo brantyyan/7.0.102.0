@@ -275,7 +275,17 @@
   },
   {
     "ModuleName": "PageReport/页面1",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T16:41:13.7099285+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\文件夹1\\页面1.json",
+      "Reports\\文件夹1\\页面1.rdlx"
+    ]
   },
   {
     "ModuleName": "PageReport/报表1",
@@ -295,11 +305,29 @@
   },
   {
     "ModuleName": "PCPage/Page1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T16:41:13.7088994+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Page1.json"
+    ]
   },
   {
     "ModuleName": "Table/Project",
-    "ModuleType": 7
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T16:41:13.7078901+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Project.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/手机_列表页面",
@@ -328,5 +356,15 @@
   {
     "ModuleName": "TableView/ColumnType_视图",
     "ModuleType": 23
+  },
+  {
+    "ModuleName": "Table/ProjectProjectProjectProjectProjectProjectProjectProjectProjectProjectProjectProject",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T16:41:13.7078901+08:00",
+    "ModuleType": 7
   }
 ]
