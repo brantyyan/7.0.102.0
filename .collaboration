@@ -326,26 +326,7 @@
     "ModuleType": 23
   },
   {
-    "ModuleName": "TableView/ColumnType_视图",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T16:27:59.9251945+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ColumnType_视图.json"
-    ]
-  },
-  {
     "ModuleName": "TableView/ColumnType_视图ColumnType_视图ColumnType_视图ColumnType_视图ColumnType_视图ColumnType_视图ColumnType_视图ColumnType_视图ColumnType_视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T16:27:59.9251945+08:00",
     "ModuleType": 23
   }
 ]
