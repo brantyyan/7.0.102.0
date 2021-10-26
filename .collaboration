@@ -215,7 +215,16 @@
   },
   {
     "ModuleName": "Table/aaaaa",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T17:48:29.9573444+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\文件夹1\\aaaaa.json"
+    ]
   },
   {
     "ModuleName": "Table/SQLCommand_Text",
