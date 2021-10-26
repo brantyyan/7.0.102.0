@@ -133,7 +133,16 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "ModuleType": 25
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T15:07:17.245567+08:00",
+    "ModuleType": 25,
+    "ToRemoveFiles": [
+      "DataConnectionSet"
+    ]
   },
   {
     "ModuleName": "Upload",
@@ -339,6 +348,16 @@
       "Email": "example@example.com"
     },
     "LockDateTime": "2021-10-26T15:01:36.9168705+08:00",
+    "ModuleType": 23
+  },
+  {
+    "ModuleName": "TableView/employee_tbl表_视图",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T15:07:17.245567+08:00",
     "ModuleType": 23
   }
 ]
