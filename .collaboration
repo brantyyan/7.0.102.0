@@ -323,7 +323,16 @@
   },
   {
     "ModuleName": "Table/Project",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T17:36:42.774626+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Project.json"
+    ]
   },
   {
     "ModuleName": "TableView/人员表_视图",
