@@ -141,17 +141,7 @@
   },
   {
     "ModuleName": "Table/表1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:41:03.6477428+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\表1.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -180,47 +170,17 @@
   },
   {
     "ModuleName": "Table/Employee",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:41:03.6457425+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Employee.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DifferentTypes",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:41:03.6457425+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\DifferentTypes.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Table1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:41:03.6457425+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Table1.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -270,17 +230,7 @@
   },
   {
     "ModuleName": "TableView/视图2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:41:03.6477428+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\视图2.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -373,16 +323,7 @@
   },
   {
     "ModuleName": "Table/Project",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:36:42.774626+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Project.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/人员表_视图",
@@ -390,12 +331,6 @@
   },
   {
     "ModuleName": "Table/employee_tbl",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T17:41:03.6457425+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
