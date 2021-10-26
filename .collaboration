@@ -133,16 +133,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T15:35:07.3375603+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -159,16 +150,7 @@
   },
   {
     "ModuleName": "PCPage/表1_列表页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T14:10:14.0793227+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\文件夹1\\表1_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Employee_List",
@@ -320,19 +302,6 @@
     "ModuleType": 7
   },
   {
-    "ModuleName": "MobilePage/mobile",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T13:41:02.7937645+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\mobile.json"
-    ]
-  },
-  {
     "ModuleName": "MobilePage/手机_列表页面",
     "ModuleType": 2
   },
@@ -342,52 +311,22 @@
   },
   {
     "ModuleName": "TableView/人员表_视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T15:46:15.6236327+08:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "TableView/employee_tbl表_视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T15:07:17.245567+08:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "TableView/销售大区表_视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T15:32:43.1126652+08:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "TableView/ColumnType_视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T15:33:08.6300337+08:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "TableView/ColumnType_视图1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-26T15:35:07.3375603+08:00",
     "ModuleType": 23
   }
 ]

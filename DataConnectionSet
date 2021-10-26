@@ -3,43 +3,54 @@
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Data Source=xa-dd3-fSs19O19;User ID=C##OracleTest;Password=xA123456;Unicode=True</ConnectionString>
     <DataBaseType>Oracle</DataBaseType>
-    <EConnectionString>Rj55UxjxjvoPeJr+TXByHsJGXT1HYXAfDYLSGazfyRP+Dlu0Gl52oF01ru4ixfzUdhbopwzPnUmZejtvbqTYZgLeXfE23/T3TPSa+T7m1/VG/5n9wl0PtTbcjAxkgBkS</EConnectionString>
+    <EConnectionString>0UTCBUoaUYt5Ztt2BshEhXOUu+GtVI8mk2BumcC4ce3yuZftKASQiTBVj05crVf/xjmP+QQOu4gbhxkvjS+31YJTpympzlb+z0jreavUEmaHXCxAXosnwD9Rqtpb0Qx5</EConnectionString>
     <ID>bc9606a4-7299-4bd7-ae97-165a3259bb9f</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Data Source=xa-dd3-fs12o11;Initial Catalog=xa-dd3-branty;Persist Security Info=True;User ID=sa;Password=xA20200326</ConnectionString>
     <DataBaseType>SqlServer</DataBaseType>
-    <EConnectionString>Rj55UxjxjvoPeJr+TXByHlloHi0dnW2ITiD3aWPTcPEEamlEnEdUJ4MG5iiO6TmLEviWg0SUCX90qeaba18pEgkucB+HbtPZcpOm7ccYmdmSohBeR92jjPMkQb0Jj1ZXdvKzRBcGCgVpgkrqyabz9JDXGD4kiMYi+3kR1yFEE9o=</EConnectionString>
+    <EConnectionString>0UTCBUoaUYt5Ztt2BshEhf0DXIyL+w6CxF/QCvc7TJvC0uKnmH89WzcBUXknJ0oZ7vcqk0xg/9Fu26yEan559X9CQJhRmx2h2MLEeB3fxN2m9vDmP5Ou+Vzy2b+ZbfS99VJx6IEu5D3c7O7AEysUPelumhdTu8N4iFTlRZxmSsE=</EConnectionString>
     <ID>e5ff0f0b-89be-44ff-a2e2-70a21ff5c8b4</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Server=xa-dd3-fs16ms8;User Id=root;Password=xA20200326;Database=brantytest1</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
-    <EConnectionString>Oa360wFjUWjcvWr5yWAIVnwf4mqhfTJuH4BSyKR3PFx4hgz5roZcZ6+nIY+5097QWfoNyuAnshbulB+8Om/Gb6g54pAF0pv8At7r+ezVIz8=</EConnectionString>
+    <EConnectionString>ojVXLIGKFtYVhSXLJ9j4U5Y3RAGi1ZCb2ipQWD4ckQWUza5LTFUFM67KNgUVxp1ezlWPWV1KJnF9KmgKr7U9d9ck1cgRhOOJ/E1kdnaFHm0=</EConnectionString>
     <ID>a8dea0c4-8694-4280-a0db-589720e3c6db</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Host=xa-dd3-fgcp13d8;Username=postgres;Password=xA20200326;Database=brantytest</ConnectionString>
     <DataBaseType>PostgreSQL</DataBaseType>
-    <EConnectionString>Rt21Bzklp5Mx0Imi6AvesXNV6Nn/asykP3c3PXOdQAgntdGAFEPYv/Ck6IXbROFdBqt7ToTXm7jasKi+fTtPvwLPwDoa7stMk2NhCFYM9lM=</EConnectionString>
+    <EConnectionString>QZ7L9XMnzmltiY8bWGCUEk134wvaowtLHMeV+YqCBZ119vaGpdTKOId50DQnAJOPZ5GfQn8nRbW25MIhaT5IO0wey4Kq6sAG4jWhRjNRWeA=</EConnectionString>
     <ID>28041355-aabe-4619-a77e-ab9d8584b4ef</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>server=xa-dd3-fgcp13d8;user=sysdba;password=xA20200326;schema=brantyTest</ConnectionString>
     <DataBaseType>DaMeng</DataBaseType>
-    <EConnectionString>iDA6g3bO++XBvlf8f0UOIe/L1Zle/yNx105JadDlR3N7wrJ3kKbhqqEDnXU0voOhB+2X0UZI1O9IH2E6ystDozsbkWlmPFAsxKYBNnyfkVw=</EConnectionString>
+    <EConnectionString>Hw8YBFAkgzSE2+T0/pCCjeTJrXync92XcBI/reCPdGms0RdyP/KNnDJRfk8YaZX8EH3RLGXnlDpiTeJHkFeB9xG+dQr4/lcX8I25F1qgp1s=</EConnectionString>
     <ID>264bbe72-c7fd-4c2c-8e0e-d1b037d7bf85</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Driver={Microsoft Access Driver (*.mdb, *.accdb)};dbq=D:\FORGUNCYBUILD\7.0.4.0\DEMO\ACCESSDATA\Forguncy_4552.accdb;defaultdir=D:\FORGUNCYBUILD\7.0.4.0\DEMO\ACCESSDATA;driverid=25;fil=MS Access;filedsn=C:\Users\brantyyan\Documents\access.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes</ConnectionString>
     <DataBaseType>Odbc</DataBaseType>
-    <EConnectionString>z/kq/3l17hz4CdikVa0cq+Lwoul0YGdngVVLH2TAtH2WFxCaZ5up2rYjLOv3FU/LI6xMxPqODyKePdqcy/U08NIKQopfd1RU7alQesRB+6JTDODK7jS2WGNt+ojV+taiNlIgU5RMkwSellYX2hl1xlV8MJW29us955yFo3PkAHXqE1cckgIAe1mPcxxGuHKDIxzqJ1LrVMP0W3l9Ab1U48XXH+L4NCfy+YD6eSy4zg1hLnGW1wL/LewFafO9Oq2eHN8kSNaGc5Kf/9XGlqLczIOxYWIQ3B8t/9my2aqeAYlAh1EKGTAKtvFihBD7RypA3IsUFR/kWvHew9vV/NhSb4ThFjU9keUeGPuUQwYpNMXcz2mHlDLfmz5ei9BjJfcbYPEcEv3AfnCSdfbVobADCLv4ppcXx+6Ab4eUg841JGwdPXY6lNzpoHEIvPypWv2SIrU3Vsib0ScmCQOTUls4Mg==</EConnectionString>
+    <EConnectionString>n2oAr4EC7lnx6inBl8tEI3+sZIYRnCZshuA/arOAl4Mmu7IQ5TGDgFWDPtul4XmY7QhgQi8kTBqMCBQLrFiG+RfuCoNlE4tzWyaPS3urOch+5xhYcrtCkMOWuE+EvhFUad01LMkwHLauDs/da3UjD6RQ3H33D8nUiV3wX7PWbdwPzSex6fDx5WRzHJ7SO09W8lqSiYbOBGlUSFjZNSLL6kTMyVML2sd6wt0Hj0Bawjf7aVymgVuIQ2NP26o0QOScwdQH2jY2adpqSDptxeNoJDsG1bBoMaeJITaQTPcMYZMelYdWqfAS563OWN8VgP9fP7RbQmdMDw3O2XYFVv0ltdCpCgwHM8YDZHg/d9heEH2rkBXLYsff4oyVAlMRkrBKfwqLNoQKvJoPTDkWx9ck5HUhCjaEubSTfePn2Fo0u9FXL+/CeLaUywEeVKc0RoSwvAaKjsfsNz4JmKNb+d1iWQ==</EConnectionString>
     <ID>a98aedd7-7f31-404c-a1f8-94fe89409066</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Driver={MySQL ODBC 8.0 Unicode Driver};server={xa-dd3-fs16ms8};uid=root;pwd=xA20200326;database=brantytest;port=3306</ConnectionString>
     <DataBaseType>Odbc</DataBaseType>
-    <EConnectionString>CDHCg9KM9jMy2ow7QrdlGj9cJ8VjUBJ67uRuMCsU4MUAzJXOmEfd3pa6qGVu3ZJx8j7juXhAtLGZCm7QnjaV3KXvuhnWnre4oLqbaaHAP5XXRkPmKxmhRRIXZ3B2Me6z3UAy57uwqThkz2G5m7ak3KGggglxmajUFSN1932ikaA=</EConnectionString>
+    <EConnectionString>i3trAAL/vwOdawTz+NaLTSNVIapF5WMNaVo7mHBqZrP6lOvsTNs3qKM3KhqIhQi0hkvIv93VSg/0CDOEst+F7UKkdl/wyTdWSYwHUUdJGCjJQtV09U5dsGzdQkiN8VUZn0xb3v8pk6X4MM6kEFcvs5O7uINPg5AobhloPCB0qGw=</EConnectionString>
     <ID>55fac581-d860-4ae5-8b19-d05bb8389cd4</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Data Source=xa-dd3-fss19O19;User ID=C##OracleTest;Password=xA123456;Unicode=True</ConnectionString>
+    <DataBaseType>Oracle</DataBaseType>
+    <EConnectionString>0UTCBUoaUYt5Ztt2BshEhT0RS0H6LLPMSsqripMulqrMTJ/KSKzk0fKOsqhty+6RhqIKKFTlXGvA7e5NtKtxDRSJPOai6blxShvR7A1mQwYs2D//sst31jWxZC0c/Bxa</EConnectionString>
+    <ID>6dc74ec8-eeac-48ef-bbf9-0eeabb30ddb3</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>server=xa-dd3-fgcp13d8;user=sysdba;password=xA20200326;schema=xa-dd3-branty</ConnectionString>
+    <DataBaseType>DaMeng</DataBaseType>
+    <ID>dd214fed-e060-4242-a8c3-141c3f88119b</ID>
   </Item>
 </DataConnectionSet>
