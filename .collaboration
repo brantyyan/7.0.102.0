@@ -211,7 +211,16 @@
   },
   {
     "ModuleName": "Table/ColumnType",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-26T17:50:54.3430911+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\外连表\\文件夹1\\ColumnType.json"
+    ]
   },
   {
     "ModuleName": "Table/aaaaa",
